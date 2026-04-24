@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-24T23:06:27+00:00",
+  "generated_at": "2026-04-24T23:32:13+00:00",
   "window_start": "2025-04-25",
   "window_end": "2026-04-24",
   "kpis": {
-    "total_deals": 560,
-    "total_funding_usd": 358918938237.51,
-    "average_deal_usd": 716405066.34,
+    "total_deals": 561,
+    "total_funding_usd": 358918976418.08,
+    "average_deal_usd": 714978040.67,
     "active_countries": 25
   },
   "daily_trend": [
@@ -96,8 +96,8 @@
     },
     {
       "date": "2026-04-22",
-      "deal_count": 9,
-      "funding_usd": 1129190889.19
+      "deal_count": 10,
+      "funding_usd": 1129229069.76
     },
     {
       "date": "2026-04-23",
@@ -235,9 +235,9 @@
       "country": "Switzerland",
       "iso3": "CHE",
       "region": "Europe",
-      "deal_count": 10,
-      "funding_usd": 276720000.0,
-      "avg_deal_usd": 27672000.0
+      "deal_count": 11,
+      "funding_usd": 276758180.57,
+      "avg_deal_usd": 25159834.6
     },
     {
       "country": "Germany",
@@ -421,8 +421,8 @@
     {
       "iso3": "CHE",
       "country": "Switzerland",
-      "deal_count": 10,
-      "funding_usd": 276720000.0,
+      "deal_count": 11,
+      "funding_usd": 276758180.57,
       "region": "Europe"
     },
     {
@@ -497,7 +497,7 @@
       "message": "Large round detected (>= $250M).",
       "metric_value": 122000000000.0,
       "baseline": 250000000,
-      "detected_at": "2026-04-24T23:06:27+00:00"
+      "detected_at": "2026-04-24T23:32:13+00:00"
     },
     {
       "severity": "low",
@@ -506,7 +506,7 @@
       "message": "One or more countries have no deal updates in the last 7 days.",
       "metric_value": 5,
       "baseline": 0,
-      "detected_at": "2026-04-24T23:06:27+00:00"
+      "detected_at": "2026-04-24T23:32:13+00:00"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T23:06:27+00:00",
+  "generated_at": "2026-04-24T23:32:13+00:00",
   "window_start": "2025-04-25",
   "window_end": "2026-04-24",
   "countries": {
@@ -4359,10 +4359,10 @@
         "subregion": "Western Europe"
       },
       "kpis": {
-        "total_deals": 10,
-        "total_funding_usd": 276720000.0,
-        "average_deal_usd": 34590000.0,
-        "active_startups": 10
+        "total_deals": 11,
+        "total_funding_usd": 276758180.57,
+        "average_deal_usd": 30750908.95,
+        "active_startups": 11
       },
       "funding_trend": [
         {
@@ -4384,9 +4384,18 @@
           "date": "2026-04-19",
           "deal_count": 2,
           "funding_usd": 88000.0
+        },
+        {
+          "date": "2026-04-22",
+          "deal_count": 1,
+          "funding_usd": 38180.57
         }
       ],
       "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 1
+        },
         {
           "round": "Seed",
           "deal_count": 8
@@ -4416,6 +4425,10 @@
         {
           "name": "Health AI",
           "value_funding_usd": 44000.0
+        },
+        {
+          "name": "SaaS",
+          "value_funding_usd": 38180.57
         },
         {
           "name": "Cybersecurity AI",
@@ -4486,6 +4499,14 @@
           "total_funding_usd": 44000.0,
           "latest_round": "Seed",
           "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "11ac263ef792c5e82091f19eb8d6f6f0a7fa9b9faad1bb719e96461eb1d33276",
+          "startup_name": "Forgis",
+          "deal_count": 1,
+          "total_funding_usd": 38180.57,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-22"
         },
         {
           "startup_id": "675061a6d1dca16074cf8ccfa43ec444c2de3d6d0c6db33552619ed676f2e9e6",

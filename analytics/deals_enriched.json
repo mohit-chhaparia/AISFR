@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-24T23:06:27+00:00",
+  "generated_at": "2026-04-24T23:32:12+00:00",
   "schema_version": "2.0.0",
-  "record_count": 560,
+  "record_count": 561,
   "source_file_count": 25,
   "duplicates_skipped": 0,
   "nation_counts": {
@@ -26,7 +26,7 @@
     "Singapore": 19,
     "South Korea": 13,
     "Spain": 20,
-    "Switzerland": 10,
+    "Switzerland": 11,
     "Taiwan": 2,
     "UAE": 10,
     "USA": 108
@@ -36,7 +36,7 @@
     "provider": "https://www.exchangerate-api.com",
     "fetched_live": true,
     "is_complete_update": true,
-    "updated_at": "2026-04-24T23:06:27+00:00",
+    "updated_at": "2026-04-24T23:32:12+00:00",
     "source_updated_at": "Fri, 24 Apr 2026 00:02:31 +0000",
     "missing_live_currencies": []
   },
@@ -1839,6 +1839,83 @@
         "Nation": "Britain",
         "Flag": "\ud83c\uddec\ud83c\udde7",
         "Date_Captured": "2026-04-23"
+      }
+    },
+    {
+      "deal_id": "a2c7d4fad4eb2a5d1e1b203e01ea16017486a9affec13491c4afd2a563787bbe",
+      "source_file": "Switzerland.json",
+      "startup_id": "11ac263ef792c5e82091f19eb8d6f6f0a7fa9b9faad1bb719e96461eb1d33276",
+      "startup_name": "Forgis",
+      "startup_city": "Schlieren ZH",
+      "nation": "Switzerland",
+      "country_iso2": "CH",
+      "country_iso3": "CHE",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "announcement_date": "2026-04-22",
+      "captured_date": "2026-04-24",
+      "captured_at": "2026-04-24T00:00:00+00:00",
+      "round_raw": "Prize/Grant (Pre-Seed)",
+      "round_normalized": "Pre-Seed",
+      "amount_raw": "30,000 dollars",
+      "amount_currency": "CHF",
+      "amount_local_value": 30000.0,
+      "amount_usd": 38180.56863593555,
+      "amount_was_converted": true,
+      "investors": [
+        {
+          "investor_id": "373885dc38234e38b29281011cfc0f0227fb3c4b09d51b84bffcf544ebe5ea7a",
+          "investor_name": "ABB",
+          "investor_type": "Unknown",
+          "investor_country_iso2": ""
+        }
+      ],
+      "investor_names": [
+        "ABB"
+      ],
+      "founders": [],
+      "description": "Forgis develops a central interface for the automation of entire factories, aiming to streamline industrial processes. The company focuses on creating smart systems for factory automation.",
+      "sector_primary": "SaaS",
+      "sector_secondary": [
+        "Industrial Automation",
+        "Data Infrastructure"
+      ],
+      "ai_domain_tags": [
+        "SaaS"
+      ],
+      "hiring_status": "Unknown",
+      "linkedin_profile": "N/A",
+      "careers_link": "N/A",
+      "has_linkedin": false,
+      "has_careers": false,
+      "source_url": "https://innovation.zuerich/news/forgis-is-one-of-the-winners-of-the-abb-startup-challenge/",
+      "source_domain": "innovation.zuerich",
+      "source_title": "Forgis Is One of the Winners of the ABB Startup Challenge",
+      "tier": "Tier 3",
+      "confidence_score": 0.8,
+      "raw_deal": {
+        "Country": "Switzerland",
+        "Startup_Name": "Forgis",
+        "Description": "Forgis develops a central interface for the automation of entire factories, aiming to streamline industrial processes. The company focuses on creating smart systems for factory automation.",
+        "Amount": "30,000 dollars",
+        "Round": "Prize/Grant (Pre-Seed)",
+        "Investors": "ABB",
+        "Founders": "Unknown",
+        "LinkedIn_Profile": "N/A",
+        "Hiring": "Unknown",
+        "Careers_Link": "N/A",
+        "Announcement_Date": "2026-04-22",
+        "Source_URL": "https://innovation.zuerich/news/forgis-is-one-of-the-winners-of-the-abb-startup-challenge/",
+        "Source_Title": "Forgis Is One of the Winners of the ABB Startup Challenge",
+        "Sector_Primary": "SaaS",
+        "Sector_Secondary": "Industrial Automation, Data Infrastructure",
+        "AI_Domain_Tags": "Unknown",
+        "Startup_City": "Schlieren ZH",
+        "Confidence_Score": 0.8,
+        "Tier": "Tier 3",
+        "Nation": "Switzerland",
+        "Flag": "\ud83c\udde8\ud83c\udded",
+        "Date_Captured": "2026-04-24"
       }
     },
     {

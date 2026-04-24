@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T23:06:27+00:00",
+  "generated_at": "2026-04-24T23:32:13+00:00",
   "window_start": "2025-04-25",
   "window_end": "2026-04-24",
   "top_investors": [
@@ -1291,6 +1291,13 @@
       "country": "India",
       "deal_count": 2,
       "funding_usd": 2200000.0
+    },
+    {
+      "investor_id": "373885dc38234e38b29281011cfc0f0227fb3c4b09d51b84bffcf544ebe5ea7a",
+      "investor_name": "ABB",
+      "country": "Switzerland",
+      "deal_count": 2,
+      "funding_usd": 2038180.57
     },
     {
       "investor_id": "959c30528859322c477a40db803450fb7a1a49db262f5127f86ecfc02f208da7",
@@ -8090,13 +8097,6 @@
       "funding_usd": 2000000.0
     },
     {
-      "investor_id": "373885dc38234e38b29281011cfc0f0227fb3c4b09d51b84bffcf544ebe5ea7a",
-      "investor_name": "ABB",
-      "country": "Switzerland",
-      "deal_count": 1,
-      "funding_usd": 2000000.0
-    },
-    {
       "investor_id": "c9b5964fbc9aefacca38212afad7e08ad56ff66e551cae341fe55eb5333282f8",
       "investor_name": "undisclosed investors",
       "country": "Canada",
@@ -14781,6 +14781,16 @@
       "latest_announcement_date": "2026-04-19"
     },
     {
+      "startup_id": "11ac263ef792c5e82091f19eb8d6f6f0a7fa9b9faad1bb719e96461eb1d33276",
+      "startup_name": "Forgis",
+      "country": "Switzerland",
+      "deal_count": 1,
+      "total_funding_usd": 38180.57,
+      "investor_count": 1,
+      "latest_round": "Pre-Seed",
+      "latest_announcement_date": "2026-04-22"
+    },
+    {
       "startup_id": "bea0bbd6668f1ece18cd1d270e7664f50074d21b3ea81494bb5ff06667f952ff",
       "startup_name": "Armatrix",
       "country": "India",
@@ -15880,6 +15890,19 @@
       ],
       "source_url": "",
       "source_domain": ""
+    },
+    {
+      "deal_id": "a2c7d4fad4eb2a5d1e1b203e01ea16017486a9affec13491c4afd2a563787bbe",
+      "announcement_date": "2026-04-22",
+      "startup_name": "Forgis",
+      "country": "Switzerland",
+      "round": "Pre-Seed",
+      "amount_usd": 38180.57,
+      "investors": [
+        "ABB"
+      ],
+      "source_url": "https://innovation.zuerich/news/forgis-is-one-of-the-winners-of-the-abb-startup-challenge/",
+      "source_domain": "innovation.zuerich"
     },
     {
       "deal_id": "1fba6d0d1aee9716271e154b17b5aa0ef66b7d951ebe992262b9a1046e5cad7c",
@@ -18398,22 +18421,6 @@
       "amount_usd": 228310.25,
       "investors": [
         "MSN Holdings"
-      ],
-      "source_url": "",
-      "source_domain": ""
-    },
-    {
-      "deal_id": "4b2c1cc47c4956c928cc8a5e4bcfe2442627a9d6968cb92f7bb3d606a55f9f2e",
-      "announcement_date": "2026-04-11",
-      "startup_name": "Astranova Mobility",
-      "country": "India",
-      "round": "Series A",
-      "amount_usd": 67962.12,
-      "investors": [
-        "IvyCap Ventures",
-        "Asian Development Bank",
-        "AdvantEdge Founders",
-        "Trucks Venture Capital"
       ],
       "source_url": "",
       "source_domain": ""
