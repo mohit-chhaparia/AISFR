@@ -73,6 +73,17 @@ jobs:
       - name: Create data directory
         run: mkdir -p data
 
+      - name: Validate Gemini API key
+        shell: bash
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          set -euo pipefail
+          if [[ -z "${GEMINI_API_KEY:-}" ]]; then
+            echo "::error::GEMINI_API_KEY secret is missing or empty."
+            exit 1
+          fi
+
       - name: Run Automation
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -95,8 +106,8 @@ jobs:
           done
 
   run-radars-self-hosted:
-    needs: [setup-matrix, github-probe, run-radars-github]
-    if: ${{ always() && (needs.github-probe.outputs.github_available != 'true' || needs.run-radars-github.result == 'failure') }}
+    needs: [setup-matrix, github-probe]
+    if: ${{ always() && needs.github-probe.outputs.github_available != 'true' }}
     runs-on: [self-hosted, radar-fallback]
     timeout-minutes: 240
     strategy:
@@ -139,6 +150,17 @@ jobs:
 
       - name: Create data directory
         run: mkdir -p data
+
+      - name: Validate Gemini API key
+        shell: bash
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          set -euo pipefail
+          if [[ -z "${GEMINI_API_KEY:-}" ]]; then
+            echo "::error::GEMINI_API_KEY secret is missing or empty."
+            exit 1
+          fi
 
       - name: Run Automation (low priority on Mac fallback)
         shell: bash
