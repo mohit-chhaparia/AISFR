@@ -1,0 +1,21 @@
+{
+  "deals": [
+    {
+      "Country": "Russia",
+      "Startup_Name": "Yourtunes (\u042e\u0440\u0442\u044e\u043d\u0441)",
+      "Description": "Russian music platform for artists to upload music to streaming services and access analytics. Funds will be used for platform development and strengthening technological infrastructure.",
+      "Amount": "$444,444",
+      "Round": "Seed",
+      "Investors": "Kama Flow, Malina VC, Moscow Venture Fund",
+      "Founders": "Dmitry Koltsov, Mikhail Shorin",
+      "LinkedIn_Profile": "N/A",
+      "Hiring": "Unknown",
+      "Careers_Link": "N/A",
+      "Tier": "Tier 2",
+      "Nation": "Russia",
+      "Flag": "\ud83c\uddf7\ud83c\uddfa",
+      "Date_Captured": "2026-04-11"
+    }
+  ],
+  "last_updated": "2026-04-23 18:50"
+}

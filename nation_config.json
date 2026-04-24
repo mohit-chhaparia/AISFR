@@ -1,0 +1,199 @@
+{
+  "Tier 1": [
+    {
+      "id": "India",
+      "label": "India",
+      "flag": "🇮🇳",
+      "sources": "Economic Times Startups, YourStory, Inc42, Entrackr, Venture Intelligence, The Ken, Moneycontrol Startup News, TechCrunch India, Crunchbase News, Outlook Business, Tracxn",
+      "prompt_extra": "Don't miss major hubs like Bengaluru, Mumbai, Delhi-NCR, Hyderabad. Also include Indian organizations investing in organizations worldwide."
+    },
+    {
+      "id": "USA",
+      "label": "USA",
+      "flag": "🇺🇸",
+      "sources": "TechCrunch, VentureBeat, Axios (Pro Rata / VC coverage), The Information, Crunchbase, PitchBook, CB Insights, NVCA, AngelList",
+      "prompt_extra": "Don't miss major hubs like San Francisco Bay Area, Seattle, New York City, Boston, Houston, Dallas, Austin, Atlanta, Denver, Miami, and Washington D.C. Also include American organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Canada",
+      "label": "Canada",
+      "flag": "🇨🇦",
+      "sources": "BetaKit, The Logic, Startup Ecosystem Canada, Crunchbase, Pitchbook, Canadian Venture Capital and Private Equity Association, CVCA.",
+      "prompt_extra": "Don't miss major hubs like Toronto, Vancouver, Montreal, Ottawa, and Waterloo. Also include Canadian organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Singapore",
+      "label": "Singapore",
+      "flag": "🇸🇬",
+      "sources": "e27, Tech in Asia, DealStreetAsia, Enterprise Singapore, Crunchbase, BLOCK71, LaunchPad @ one-north.",
+      "prompt_extra": "Don't miss major hubs like Singapore's Silicon Valley, LaunchPad @ one-north, Fusionopolis, Biopolis, one-north, Changi Business Park, Jurong Innovation District, Marina Bay/CBD Area, Mediapolis. Also include Singapore organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Dubai",
+      "label": "Dubai",
+      "flag": "🇦🇪",
+      "sources": "Magnitt, Wamda, Arabian Business, Entrepreneur Middle East, Hub71, Dubai Future Foundation, Gulf News, Dealroom, Crunchbase, Dubai Chamber of Digital Economy, D33, in5, sandbox programs, GITEX.",
+      "prompt_extra": "Don't miss major hubs like Dubai Internet City, Dubai Silicon Oasis (DSO), Dubai International Financial Centre (DIFC), Masdar City (Abu Dhabi), DMCC (Dubai), SAVI (Abu Dhabi), Sharjah Research Technology and Innovation Park (SRTIP), Abu Dhabi (ADGM) and Sharjah Research Technology and Innovation Park. Also include Dubai organizations investing in organizations worldwide."
+    }
+  ],
+
+
+  
+  "Tier 2": [
+    {
+      "id": "Russia",
+      "label": "Russia",
+      "flag": "🇷🇺",
+      "sources": "RB.ru, Rusbase, Crunchbase, Dealroom, Novosibirsk State University, Siberian tech ecosystem, Special Economic Zone, Skolkovo Innovation Center, Russian Silicon Valley, Hi-Tech Mail.ru, ICT.Moscow, RIA Novosti (Tech section), OpenNet.ru, RIA Novosti, Yandex, VK, Skolkovo Foundation, Internet Initiatives Development Fund (IIDF), MTS StartUp Hub.",
+      "prompt_extra": "Don't miss major hubs like Moscow, St. Peterburg, Skolkovo Innovation Center, Akademgorodok in Novosibirsh, Innopolis in Tatarstan, Yekaterinburg, Kazan, Tomsk, Samara & Ufa, St. Petersburg SEZ (Special Economic Zone). Also include Russian organizations investing in organizations worldwide."
+    },
+    {
+      "id": "China",
+      "label": "China",
+      "flag": "🇨🇳",
+      "sources": "36Kr, KrAsia, KrASIA, TechNode, IT Juzi, Crunchbase, China's Silicon Valley (giants like Huawei, Tencent, DJI), Zhongguancun district, Alibaba.",
+      "prompt_extra": "Don't miss major hubs like Beijing, Shenzhen, Shanghai, Hangzhou, Guangzhou, Chengdu, Xi'an, China's Silicon Valley, Zhongguancun, Chengdu & Chongqing, Xi'an & Wuhan, Suzhou & Nanjing, Yangtze River Delta cluster, Greater Bay Area, Hong Kong, Tianjin, Hebei. Also include Chinese organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Germany",
+      "label": "Germany",
+      "flag": "🇩🇪",
+      "sources": "Grüderszene, Deutsche Startups, Handelsblatt, Startup Germany, Dealroom, Crunchbase, heise.de (heise online), t3n.de, Golem.de, TechCrunch Germany, Caschys Blog, Computerbase, IT Finanzmagazin, IFA Berlin, Hannover Messe, Gamescom (Cologne), it-sa (Nuremberg).",
+      "prompt_extra": "Don't miss major hubs like Berlin, Munich, Frankfurt, NRW region, Frankfurt am Main, North Rhine-Westphalia (NRW) Region, Cologne, Düsseldorf, Aachen, Hamburg. Also include German organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Israel",
+      "label": "Israel",
+      "flag": "🇮🇱",
+      "sources": "CTech, Calcalist, Calcalist Tech, Geektime, Start-Up Nation Central, Startup Nation Central, Startup Nation Finder, Crunchbase, R&D center (mainly Microsoft, Google, Apple, Nvidia), Top-tier research institutions (like Technion (Haifa), Hebrew University (Jerusalem), Weizmann Institute (Rehovot).",
+      "prompt_extra": "Don't miss major hubs like Tel Aviv Metropolitan Area (startups/venture capital), Haifa (Matam Park), Jerusalem, Yokneam Ecosystem, and Beersheba (Cyber Spark). Also include Dubai organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Britain",
+      "label": "Britain",
+      "flag": "🇬🇧",
+      "sources": "UKTN, Sifted, TechCrunch, TechCrunch (UK filter), London Tech Week, Dealroom, Crunchbase, NHS digital operations.",
+      "prompt_extra": "Don't miss major hubs like London, Manchester, Cambridge, Edinburgh, Bristol/Bath region, Canary Wharf, Clerkenwell, Silicon Fen, Glasgow, Reading & Thames Valley, Oxford, golden triangle. Also include Singapore organizations investing in organizations worldwide."
+    }
+  ],
+
+
+  
+  "Tier 3": [
+    {
+      "id": "UAE",
+      "label": "UAE",
+      "flag": "🇦🇪",
+      "sources": "Magnitt, Wamda, Arabian Business, Entrepreneur Middle East, Hub71, Dubai Future Foundation, Crunchbase, Gulf News, Dealroom.",
+      "prompt_extra": "Don't miss major hubs. Do not include Dubai, Riyadh, Jeddah, and Sharjah. Also include UAE organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Netherlands",
+      "label": "Netherlands",
+      "flag": "🇳🇱",
+      "sources": "Silicon Canals, Dutch Startup Association, StartupDelta, Tech.eu, Dealroom, Crunchbase, Techleap.nl, Innovation Origins, Invest in Holland, Dutch tech ecosystem, Dutch Datacenter Association, I amsterdam - Tech, Amsterdam Science Park, ImpactCity The Hague.",
+      "prompt_extra": "Don't miss major hubs like Amsterdam, Eindhoven, Rotterdam, The Hague, Randstad, Brainport Region, Security Delta, Utrecht. Also include Netherlands organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Switzerland",
+      "label": "Switzerland",
+      "flag": "🇨🇭",
+      "sources": "Startupticker, Venturelab, Swiss Startup Association, Crunchbase, Dealroom, Alpine Tech Cluster, Silicon Valley of Robotics, EPFL, SWI swissinfo.ch (Sci-Tech), Fintech News Switzerland, Sifted (Switzerland), Startup Guide Zurich, Swiss.tech, Neue Zürcher Zeitung (NZZ), TheRecursive.com, ETH Zurich, EPFL Lausanne, Switzerland Innovation, Venturelab.",
+      "prompt_extra": "Don't miss major hubs like Alpine Tech Cluster, Zurich & Greater Zurich Area, Silicon Valley of Robotics, Lausanne/Geneva (Lake Geneva Region), École Polytechnique Fédérale de Lausanne, Zug (Crypto Valley), Basel, Bern, ETH Zurich, EPFL Lausanne, Switzerland Innovation, Venturelab. Also include Swiss organizations investing in organizations worldwide."
+    },
+    {
+      "id": "France",
+      "label": "France",
+      "flag": "🇫🇷",
+      "sources": "FrenchWeb, Maddyness, Station F, Les Echos, Dealroom, Crunchbase, 'FW 500' ranking of French tech business, Selicon.fr, L'Usine Digitale, The French Tech Journal, Les Echos Start/Entrepreneurs, Le Journal du Net (JDN), 01net, Viva Technology (VivaTech), France Digitale Day, La French Tech.",
+      "prompt_extra": "Don't miss major hubs like Paris, Sophia Antipolis (Nice/Cannes), Lyon, Grenoble, CEA-Leti, Toulouse. Also include French organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Australia",
+      "label": "Australia",
+      "flag": "🇦🇺",
+      "sources": "SmartCompany, Startup Daily, Australian Financial Review, AFR Startups, Crunchbase, Dealroom, InnovationAus (InnovationAus.com), Information Age (ACS), IT News / Computerworld Australia, Gizmodo Australia, Tech AU / Techday, Ticker News, Tech Council of Australia (TCA), Cicada Innovation, Airtee / UNSW Founders",
+      "prompt_extra": "Don't miss major hubs like Sydney, Tech Central, Melbourne, Brisbane, Perth, Adelaide, Haymarket, Camperdown, South Eveleigh, LaunchVic, Newcastle, Geelong & Gold Coast,Noosa, Health Tech Hub at Westmead, AMRF. Also include Australian organizations investing in organizations worldwide."
+    }
+  ],
+
+
+  
+  "Tier 4": [
+    {
+      "id": "Japan",
+      "label": "Japan",
+      "flag": "🇯🇵",
+      "sources": "The Bridge, TechCrunch Japan, INITIAL, Crunchbase, Dealroom, Silicon Valley of Japan, Tech Hub Yokohama, Nikkei XTECH (and Nikkei Asia), ITmedia, ASCII.jp, Japan Dev Blog, Disrupting Japan, Science Japan, The Japan Times (Tech Section), Impress Watch, IIFES (Innovative Industry Fair for E x E Solutions), JIMTOF (Japan International Machine Tool Fair), AI Expo Tokyo, ad:tech tokyo.",
+      "prompt_extra": "Don't miss major hubs like Tokyo-Yokohama area, Fukuoka & Kansai, Tokyo - Shibuya (Silicon Valley of Japan), Tokyo - Minato, Tokyo - Shinagawa (Gotanda Valley), Yokohama, Osaka, Kyoto, Kobe. Also include Japanese organizations investing in organizations worldwide."
+    },
+    {
+      "id": "South_Korea",
+      "label": "South Korea",
+      "flag": "🇰🇷",
+      "sources": "Platum, KoreaTechDesk, The VC, Crunchbase, Dealroom, Silicon Valley of Korea, Science Hub of Korea, DigitalToday, Koreabizwire, The Korea Herald, The Korea Times, Naver News, The Korean Economic Daily, Maeil Business Newspaper, Inven & Ruliweb, AI Basic Act, KoreaTechToday, KED Global (Korea Economic Daily), Yonhap News Agency,  Pulse News (MK), CES (Soeul/Korea Participation), Smart Tech Korea (Seoul), SEMICON Korea (Seoul), AI EXPO KOREA.",
+      "prompt_extra": "Don't miss major hubs like Pangyo Techno Valley (Gyeonggi Province), Silicon Valley of Korea, Gangnam District (Seoul), Magok Industrial Complex (Seoul), Daejeon (Daedeok Innopolis), Yangjae (Seoul), Yongin (Gyeonggi Province). Also include South Korean organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Ireland",
+      "label": "Ireland",
+      "flag": "🇮🇪",
+      "sources": "Silicon Republic, TechIreland, Crunchbase, Dealroom, The Irish Times (Tech), Technology Ireland, Business Post, IDA Ireland News, Irish Tech News, TechCentral.ie, RTE Technology.",
+      "prompt_extra": "Don't miss major hubs like Dublin's 'Silicon Docks' (Google Facebook, LinkedIn, Twitter, Microsoft), Cork, Galway, Limerick, Dublin, Kilkenny. Also include Irish organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Taiwan",
+      "label": "Taiwan",
+      "flag": "🇹🇼",
+      "sources": "Tech in Asia, Meet Taipei, Taiwan Tech Summit / Demo Day Resources, Crunchbase, Dealroom, Digitimes, EE Times Taiwan, Taipei Times, Focus Taiwan (CNA), United Daily News (UDN) Tech, Central News Agency, TSMC (Taiwan Semiconductor Manufacturing Company), ITRI (Industrial Technology Research Institute), NCSIST (National Chung-Shan Institute of Science and Technology), Tech Taiwan, Taiwan News, Business Weekly, CommonWealth Magazine.",
+      "prompt_extra": "Don't miss major hubs like Hsinchu Science Park (Hsinchu County), Taiwan's Silicon Valley, Taipei City, Taoyuan City, Kaohsiung, Startup Terrace Linkou, Taiwan Tech Arena (TTA), Startup Terrace Kaohsiung, ITRI (Industrial Technology Research Institute), NCSIST (National Chung-Shan Institute of Science and Technology). Also include Taiwanese organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Brazil",
+      "label": "Brazil",
+      "flag": "🇧🇷",
+      "sources": "Startups.com.br, Distrito, Crunchbase, Dealroom, UOL (Universo Online), Globo (G1 and O Globo), Folha de S.Paulo, Valor Econômico, Brazil Reports - Technology, Bagete, LatAm Tech Weekly (Substack), LABS News, Startupi, Exame / O Estado de S. Paulo, LATAM.tech.",
+      "prompt_extra": "Don't miss major hubs like São Paulo, Florianópolis, Brazil's Silicon Valley, Belo Horizonte, Rio de Janeiro, Recife ('Porto Digital'), Campinas, UNICAMP university, Curitiba ('Guadalupe Valley'). Also include Brazilian organizations investing in organizations worldwide."
+    }
+  ],
+
+
+  
+  "Tier 5": [
+    {
+      "id": "Luxembourg",
+      "label": "Luxembourg",
+      "flag": "🇱🇺",
+      "sources": "Silicon Luxembourg, Dealroom, Crunchbase, Techsense, Chronicle.lu, Delano (Tech Section), Innovation Initiatives.",
+      "prompt_extra": "Don't miss major hubs like The LHoFT (Luxembourg House of Financial Technology), Luxembourg-City Incubator (LCI), Esch-Belval (Belval Innovation Campus), Luxembourg Trade & Invest. Also include Luxembourger organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Finland",
+      "label": "Finland",
+      "flag": "🇫🇮",
+      "sources": "ArcticStartup, Slush, StartUp Finland, EU-Startups, Dealroom, Crunchbase, Aalto University, Defence Tech Hub, The 'Silicon Valley' of the North, Helsingin Sanomat (HS.fi), HS Visio, Kauppalehti, Tekniikka & Talous, Good News from Finland, Yle News, Soaked by Slush, Slush tech conference, Sifted, Business Finland News Hub, Startup Helsinki Slack, Koodiklinikka, IGDA Finland (Active International Game Developers Association chapter), Aaltoes (Aalto Entrepreneurship Society), Slush (Helsinki), Teknologia (Helsinki), Shift (Turku).",
+      "prompt_extra": "Don't miss major hubs like Helsinki Capital Region, Maria 01 (Helsinki), Otaniemi, Espoo, Aalto University, Defence Tech Hub, Tampere, Platform6 startup house, Oulu (The 'Silicon Valley' of the North), Lappeenranta. Also include Finnish organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Spain",
+      "label": "Spain",
+      "flag": "🇪🇸",
+      "sources": "Xataka, Engadget Spain, [El País / El Mundo (Tech Sections), elDiario.es (Technología), La Vanguardia (Tech), Adigital (Spanish Association for the Digital Economy), Spain Tech Map.",
+      "prompt_extra": "Don't miss major hubs like Barcelona, Madrid, Málaga, Silicon Valley of Southern Europe, Andalucía Technology Park, Valencia, Zaragoza, Adigital (Spanish Association for the Digital Economy), Spain Tech Map. Also include Spanish organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Portugal",
+      "label": "Portugal",
+      "flag": "🇵🇹",
+      "sources": "Portugal Business News (PBN), The Portugal News, Expresso, Público, Portugal Startup News, TechBehemoths Blog, Web Summit, Unicorn Week Lisboa, Portugal Digital Economy - International Trade Administration, European Institute of Innovation & Technology, Portugal Startup News and Eco., Ireland Portugal Business Network, top technical universities.",
+      "prompt_extra": "Don't miss major hubs like Lisbon, Unicorn Factory Lisboa, Porto, Braga, Aveiro, Sines. Also include Portuguese organizations investing in organizations worldwide."
+    },
+    {
+      "id": "Denmark",
+      "label": "Denmark",
+      "flag": "🇩🇰",
+      "sources": "TechSavvy Media, The Copenhagen Post, tech sections of national outlets, University of Southern Denmark, Green Technology Centres, Next Energy (South Jutland), The Copenhagen Post - Tech, The Hub, Tech.eu, DR and TV 2, MIT ID, EDIH Networks, Digital Innovation Hubs, AI-Boost, EDOcobot, International Trade Administration.",
+      "prompt_extra": "Don't miss major hubs like Copenhagen, Odense, University of Southern Denmark, Aarhus, Green Technology Centres, South Jutland. Also include Danish organizations investing in organizations worldwide."
+    }
+  ]
+}

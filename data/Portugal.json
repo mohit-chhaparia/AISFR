@@ -1,0 +1,53 @@
+{
+  "deals": [
+    {
+      "Country": "Portugal",
+      "Startup_Name": "Spinnable AI",
+      "Description": "Lisbon-based startup building autonomous AI coworkers that integrate directly into everyday business workflows, designed to help businesses scale without being constrained by human headcount.",
+      "Amount": "\u20ac2 million",
+      "Round": "Pre-seed",
+      "Investors": "Heartcore Capital, Florent Venture Partners, AlphaGraph",
+      "Founders": "Vasco Pedro, Gil Coelho, F\u00e1bio Kepler",
+      "LinkedIn_Profile": "N/A",
+      "Hiring": "Yes",
+      "Careers_Link": "N/A",
+      "Tier": "Tier 5",
+      "Nation": "Portugal",
+      "Flag": "\ud83c\uddf5\ud83c\uddf9",
+      "Date_Captured": "2026-04-19"
+    },
+    {
+      "Country": "Portugal",
+      "Startup_Name": "Bloq.it",
+      "Description": "Lisbon-based startup that designs and manufactures smart parcel lockers, runs the software that powers them, and manages the infrastructure for logistics companies. The company is also building an AI department.",
+      "Amount": "$33 million",
+      "Round": "Latest funding round",
+      "Investors": "N/A",
+      "Founders": "Miha Jagodic, Jo\u00e3o Lopes",
+      "LinkedIn_Profile": "N/A",
+      "Hiring": "Yes",
+      "Careers_Link": "N/A",
+      "Tier": "Tier 5",
+      "Nation": "Portugal",
+      "Flag": "\ud83c\uddf5\ud83c\uddf9",
+      "Date_Captured": "2026-04-19"
+    },
+    {
+      "Country": "Portugal",
+      "Startup_Name": "DOJO AI",
+      "Description": "An intelligent marketing system that brings integrated AI to marketing teams. It analyzes marketing data with full context and acts on it to improve execution across marketing, creative work, sales, and revenue operations.",
+      "Amount": "6000000 USD",
+      "Round": "Seed",
+      "Investors": "Armilar, Heartfelt VC",
+      "Founders": "Duarte Garrido, Antonio Alegria",
+      "LinkedIn_Profile": "N/A",
+      "Hiring": "Unknown",
+      "Careers_Link": "N/A",
+      "Tier": "Tier 5",
+      "Nation": "Portugal",
+      "Flag": "\ud83c\uddf5\ud83c\uddf9",
+      "Date_Captured": "2026-04-24"
+    }
+  ],
+  "last_updated": "2026-04-24 02:20"
+}

@@ -1,0 +1,37 @@
+{
+  "deals": [
+    {
+      "Country": "Taiwan",
+      "Startup_Name": "OwlTing Group",
+      "Description": "A blockchain company offering stablecoin and digital asset infrastructure across e-commerce and hospitality sectors. It aims to expand its global payment infrastructure and pursue additional regulatory licenses.",
+      "Amount": "$10 million",
+      "Round": "Convertible Security",
+      "Investors": "Lind Global Asset Management XV",
+      "Founders": "N/A",
+      "LinkedIn_Profile": "N/A",
+      "Hiring": "Unknown",
+      "Careers_Link": "N/A",
+      "Tier": "Tier 4",
+      "Nation": "Taiwan",
+      "Flag": "\ud83c\uddf9\ud83c\uddfc",
+      "Date_Captured": "2026-04-10"
+    },
+    {
+      "Country": "Singapore",
+      "Startup_Name": "Libeara Pte. Ltd.",
+      "Description": "Operates a regulated real-world asset (RWA) tokenization platform, rebuilding capital markets on-chain through a compliance-first approach.",
+      "Amount": "Undisclosed",
+      "Round": "Funding Round",
+      "Investors": "AlloyX Ventures Limited, SC Ventures",
+      "Founders": "Aaron Gwak",
+      "LinkedIn_Profile": "N/A",
+      "Hiring": "Unknown",
+      "Careers_Link": "N/A",
+      "Tier": "Tier 4",
+      "Nation": "Taiwan",
+      "Flag": "\ud83c\uddf9\ud83c\uddfc",
+      "Date_Captured": "2026-04-10"
+    }
+  ],
+  "last_updated": "2026-04-24 02:03"
+}
