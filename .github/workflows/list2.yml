@@ -163,3 +163,122 @@ jobs:
             git pull origin main --rebase && git push origin main && break
             sleep 5
           done
+
+  build-analytics-github:
+    needs: [run-radars-github, github-probe]
+    if: ${{ always() && needs.github-probe.outputs.github_available == 'true' && needs.run-radars-github.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync with latest main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install analytics dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          pip install --disable-pip-version-check requests
+
+      - name: Build analytics datasets and marts
+        shell: bash
+        run: |
+          set -euo pipefail
+          python build_enriched_dataset.py --data-dir data --output-dir analytics --nation-reference nation_reference.json --fx-rates data/fx_rates.json
+          python build_analytics_marts.py --enriched analytics/deals_enriched.json --output-dir analytics --lookback-days 365
+
+      - name: Save analytics artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config --global user.name "Radar-Bot"
+          git config --global user.email "bot@github.com"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+          git add data/fx_rates.json analytics/deals_enriched.json analytics/page2_global.json analytics/page3_country.json analytics/page4_investor_startup.json
+          git commit -m "Refresh analytics marts and FX registry" || echo "No changes"
+
+          for i in {1..5}; do
+            git pull origin main --rebase && git push origin main && break
+            sleep 5
+          done
+
+  build-analytics-self-hosted:
+    needs: [run-radars-self-hosted, github-probe]
+    if: ${{ always() && needs.run-radars-self-hosted.result == 'success' }}
+    runs-on: [self-hosted, radar-fallback]
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync with latest main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+
+      - name: Locate local Python 3.11
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if command -v brew >/dev/null 2>&1; then
+            PY_PREFIX="$(brew --prefix python@3.11 2>/dev/null || true)"
+            if [[ -n "$PY_PREFIX" && -x "$PY_PREFIX/bin/python3.11" ]]; then
+              echo "$PY_PREFIX/bin" >> "$GITHUB_PATH"
+            fi
+          fi
+
+          if command -v python3.11 >/dev/null 2>&1; then
+            echo "Using $(command -v python3.11)"
+            python3.11 --version
+            exit 0
+          fi
+
+          echo "Python 3.11 not found on self-hosted Mac."
+          echo "Install it first with: brew install python@3.11"
+          exit 1
+
+      - name: Install analytics dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3.11 -m pip install --upgrade pip
+          python3.11 -m pip install --disable-pip-version-check requests
+
+      - name: Build analytics datasets and marts
+        shell: bash
+        run: |
+          set -euo pipefail
+          nice -n 10 python3.11 build_enriched_dataset.py --data-dir data --output-dir analytics --nation-reference nation_reference.json --fx-rates data/fx_rates.json
+          nice -n 10 python3.11 build_analytics_marts.py --enriched analytics/deals_enriched.json --output-dir analytics --lookback-days 365
+
+      - name: Save analytics artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config --global user.name "Radar-Bot"
+          git config --global user.email "bot@github.com"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+          git add data/fx_rates.json analytics/deals_enriched.json analytics/page2_global.json analytics/page3_country.json analytics/page4_investor_startup.json
+          git commit -m "Refresh analytics marts and FX registry" || echo "No changes"
+
+          for i in {1..5}; do
+            git pull origin main --rebase && git push origin main && break
+            sleep 5
+          done
