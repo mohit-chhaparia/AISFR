@@ -1,0 +1,252 @@
+{
+  "India": {
+    "iso2": "IN",
+    "iso3": "IND",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "default_currency": "INR",
+    "lat": 20.5937,
+    "lon": 78.9629,
+    "aliases": ["India"]
+  },
+  "USA": {
+    "iso2": "US",
+    "iso3": "USA",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "default_currency": "USD",
+    "lat": 37.0902,
+    "lon": -95.7129,
+    "aliases": ["USA", "United States", "US", "U.S.A."]
+  },
+  "Canada": {
+    "iso2": "CA",
+    "iso3": "CAN",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "default_currency": "CAD",
+    "lat": 56.1304,
+    "lon": -106.3468,
+    "aliases": ["Canada"]
+  },
+  "Singapore": {
+    "iso2": "SG",
+    "iso3": "SGP",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "default_currency": "SGD",
+    "lat": 1.3521,
+    "lon": 103.8198,
+    "aliases": ["Singapore"]
+  },
+  "Dubai": {
+    "iso2": "AE",
+    "iso3": "ARE",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "default_currency": "AED",
+    "lat": 25.2048,
+    "lon": 55.2708,
+    "aliases": ["Dubai", "Dubai_UAE"]
+  },
+  "Russia": {
+    "iso2": "RU",
+    "iso3": "RUS",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "default_currency": "RUB",
+    "lat": 61.524,
+    "lon": 105.3188,
+    "aliases": ["Russia"]
+  },
+  "China": {
+    "iso2": "CN",
+    "iso3": "CHN",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "default_currency": "CNY",
+    "lat": 35.8617,
+    "lon": 104.1954,
+    "aliases": ["China"]
+  },
+  "Germany": {
+    "iso2": "DE",
+    "iso3": "DEU",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "default_currency": "EUR",
+    "lat": 51.1657,
+    "lon": 10.4515,
+    "aliases": ["Germany"]
+  },
+  "Israel": {
+    "iso2": "IL",
+    "iso3": "ISR",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "default_currency": "ILS",
+    "lat": 31.0461,
+    "lon": 34.8516,
+    "aliases": ["Israel"]
+  },
+  "Britain": {
+    "iso2": "GB",
+    "iso3": "GBR",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "default_currency": "GBP",
+    "lat": 55.3781,
+    "lon": -3.436,
+    "aliases": ["Britain", "United Kingdom", "UK", "Great Britain"]
+  },
+  "UAE": {
+    "iso2": "AE",
+    "iso3": "ARE",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "default_currency": "AED",
+    "lat": 23.4241,
+    "lon": 53.8478,
+    "aliases": ["UAE", "United Arab Emirates"]
+  },
+  "Netherlands": {
+    "iso2": "NL",
+    "iso3": "NLD",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "default_currency": "EUR",
+    "lat": 52.1326,
+    "lon": 5.2913,
+    "aliases": ["Netherlands"]
+  },
+  "Switzerland": {
+    "iso2": "CH",
+    "iso3": "CHE",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "default_currency": "CHF",
+    "lat": 46.8182,
+    "lon": 8.2275,
+    "aliases": ["Switzerland"]
+  },
+  "France": {
+    "iso2": "FR",
+    "iso3": "FRA",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "default_currency": "EUR",
+    "lat": 46.2276,
+    "lon": 2.2137,
+    "aliases": ["France"]
+  },
+  "Australia": {
+    "iso2": "AU",
+    "iso3": "AUS",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "default_currency": "AUD",
+    "lat": -25.2744,
+    "lon": 133.7751,
+    "aliases": ["Australia"]
+  },
+  "Japan": {
+    "iso2": "JP",
+    "iso3": "JPN",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "default_currency": "JPY",
+    "lat": 36.2048,
+    "lon": 138.2529,
+    "aliases": ["Japan"]
+  },
+  "South Korea": {
+    "iso2": "KR",
+    "iso3": "KOR",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "default_currency": "KRW",
+    "lat": 35.9078,
+    "lon": 127.7669,
+    "aliases": ["South Korea", "South_Korea", "Korea, Republic of"]
+  },
+  "Ireland": {
+    "iso2": "IE",
+    "iso3": "IRL",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "default_currency": "EUR",
+    "lat": 53.1424,
+    "lon": -7.6921,
+    "aliases": ["Ireland"]
+  },
+  "Taiwan": {
+    "iso2": "TW",
+    "iso3": "TWN",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "default_currency": "TWD",
+    "lat": 23.6978,
+    "lon": 120.9605,
+    "aliases": ["Taiwan"]
+  },
+  "Brazil": {
+    "iso2": "BR",
+    "iso3": "BRA",
+    "region": "Americas",
+    "subregion": "South America",
+    "default_currency": "BRL",
+    "lat": -14.235,
+    "lon": -51.9253,
+    "aliases": ["Brazil"]
+  },
+  "Luxembourg": {
+    "iso2": "LU",
+    "iso3": "LUX",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "default_currency": "EUR",
+    "lat": 49.8153,
+    "lon": 6.1296,
+    "aliases": ["Luxembourg"]
+  },
+  "Finland": {
+    "iso2": "FI",
+    "iso3": "FIN",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "default_currency": "EUR",
+    "lat": 61.9241,
+    "lon": 25.7482,
+    "aliases": ["Finland"]
+  },
+  "Spain": {
+    "iso2": "ES",
+    "iso3": "ESP",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "default_currency": "EUR",
+    "lat": 40.4637,
+    "lon": -3.7492,
+    "aliases": ["Spain"]
+  },
+  "Portugal": {
+    "iso2": "PT",
+    "iso3": "PRT",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "default_currency": "EUR",
+    "lat": 39.3999,
+    "lon": -8.2245,
+    "aliases": ["Portugal"]
+  },
+  "Denmark": {
+    "iso2": "DK",
+    "iso3": "DNK",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "default_currency": "DKK",
+    "lat": 56.2639,
+    "lon": 9.5018,
+    "aliases": ["Denmark"]
+  }
+}
