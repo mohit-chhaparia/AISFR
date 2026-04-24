@@ -16,7 +16,7 @@ env:
 
 jobs:
   setup-matrix:
-    runs-on: [self-hosted, radar-fallback]
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
@@ -40,7 +40,9 @@ jobs:
     steps:
       - id: probe
         name: Probe GitHub-hosted availability
-        run: echo "GitHub-hosted runner is available."
+        run: |
+          echo "GitHub-hosted runner is available."
+          echo "github_available=true" >> "$GITHUB_OUTPUT"
 
   run-radars-github:
     needs: [setup-matrix, github-probe]
@@ -93,8 +95,8 @@ jobs:
           done
 
   run-radars-self-hosted:
-    needs: [setup-matrix, github-probe]
-    if: ${{ always() && needs.github-probe.outputs.github_available != 'true' }}
+    needs: [setup-matrix, github-probe, run-radars-github]
+    if: ${{ always() && (needs.github-probe.outputs.github_available != 'true' || needs.run-radars-github.result == 'failure') }}
     runs-on: [self-hosted, radar-fallback]
     timeout-minutes: 240
     strategy:

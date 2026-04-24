@@ -47,7 +47,7 @@ concurrency:
 
 jobs:
   calculate:
-    runs-on: [self-hosted, radar-fallback]
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     outputs:
       wf_name: ${{ steps.logic.outputs.wf_name }}
