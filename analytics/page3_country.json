@@ -1,0 +1,5098 @@
+{
+  "generated_at": "2026-04-24T23:06:27+00:00",
+  "window_start": "2025-04-25",
+  "window_end": "2026-04-24",
+  "countries": {
+    "Australia": {
+      "country_meta": {
+        "country": "Australia",
+        "iso2": "AU",
+        "iso3": "AUS",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand"
+      },
+      "kpis": {
+        "total_deals": 12,
+        "total_funding_usd": 801681847.5,
+        "average_deal_usd": 72880167.95,
+        "active_startups": 12
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 1,
+          "funding_usd": 214234145.07
+        },
+        {
+          "date": "2026-04-04",
+          "deal_count": 5,
+          "funding_usd": 14315000.0
+        },
+        {
+          "date": "2026-04-19",
+          "deal_count": 2,
+          "funding_usd": 522200000.0
+        },
+        {
+          "date": "2026-04-22",
+          "deal_count": 4,
+          "funding_usd": 50932702.44
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 5
+        },
+        {
+          "round": "Seed",
+          "deal_count": 3
+        },
+        {
+          "round": "Series A",
+          "deal_count": 2
+        },
+        {
+          "round": "Series D+",
+          "deal_count": 1
+        },
+        {
+          "round": "Strategic",
+          "deal_count": 1
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 505000000.0
+        },
+        {
+          "name": "Fintech AI",
+          "value_funding_usd": 214234145.07
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 82447702.44
+        },
+        {
+          "name": "Climate & Energy",
+          "value_funding_usd": 0.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "d3ed6fa8e9c959818fbcc07e9077149d145b385ddede97236958d5573ea856b8",
+          "startup_name": "Firmus",
+          "deal_count": 1,
+          "total_funding_usd": 505000000.0,
+          "latest_round": "Strategic",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "4d0c8b2a0372fba655a45bab7e683f25a539fd27baaa1ec132f6eef77786244d",
+          "startup_name": "Airwallex",
+          "deal_count": 1,
+          "total_funding_usd": 214234145.07,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "22a254e450f28c719b32e30be0bba226f04b64681353042fbbd94edc89a6f0ca",
+          "startup_name": "Syenta",
+          "deal_count": 1,
+          "total_funding_usd": 37000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-22"
+        },
+        {
+          "startup_id": "088de08c9a59517b6fa8b9d4e449357e5059e3150c4aa09ba28644f8b0576c6c",
+          "startup_name": "Haast",
+          "deal_count": 1,
+          "total_funding_usd": 17200000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "70e57d977e4f3cd1da22376343d95ab4b9397a1bd56bd6feed686e758b2a907a",
+          "startup_name": "Atomic Tessellator",
+          "deal_count": 1,
+          "total_funding_usd": 11300000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-22"
+        },
+        {
+          "startup_id": "a0a97ecd7e7c162e2b0e9a7a27ebd74826f1751912c0f7011bf78a3c513b35c3",
+          "startup_name": "Adora",
+          "deal_count": 1,
+          "total_funding_usd": 7000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "9a34c48176e0c704f6fedb16ec2136ee51570abc5b6aee3bf4dd4d9201cc50a4",
+          "startup_name": "Omniscient",
+          "deal_count": 1,
+          "total_funding_usd": 4100000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "b48efeb6642f9727a766dadbcc805fc30621415784519a6cca05e73b8c85c58a",
+          "startup_name": "Rosella",
+          "deal_count": 1,
+          "total_funding_usd": 2405000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "20a5871a4c5f1f4d688a9d04ccc8f3ad78b7ace012831f364262876ce10c3149",
+          "startup_name": "Clean Slate Clinic",
+          "deal_count": 1,
+          "total_funding_usd": 1990000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-22"
+        },
+        {
+          "startup_id": "ffab712c8adcbd711102315987ea39ceedce35098d831eed0ac28eeda4becff7",
+          "startup_name": "Plastics Pirate",
+          "deal_count": 1,
+          "total_funding_usd": 810000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "9fb78476c6f2e35a19254d8028954f00afabcce57b5834c9e3f29c8ee4d7e2fc",
+          "startup_name": "Chime Labs",
+          "deal_count": 1,
+          "total_funding_usd": 642702.44,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-22"
+        },
+        {
+          "startup_id": "d57f9b618765281ae23e201f6740c3266931636bca3fbb2d46b616afc3dd4be8",
+          "startup_name": "ecoJet Engineering",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-04"
+        }
+      ]
+    },
+    "Brazil": {
+      "country_meta": {
+        "country": "Brazil",
+        "iso2": "BR",
+        "iso3": "BRA",
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "kpis": {
+        "total_deals": 11,
+        "total_funding_usd": 100000000.0,
+        "average_deal_usd": 10000000.0,
+        "active_startups": 11
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-07",
+          "deal_count": 3,
+          "funding_usd": 60300000.0
+        },
+        {
+          "date": "2026-04-18",
+          "deal_count": 8,
+          "funding_usd": 39700000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 1
+        },
+        {
+          "round": "Seed",
+          "deal_count": 4
+        },
+        {
+          "round": "Series A",
+          "deal_count": 2
+        },
+        {
+          "round": "Series C",
+          "deal_count": 1
+        },
+        {
+          "round": "Grant",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 2
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 34100000.0
+        },
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 31200000.0
+        },
+        {
+          "name": "Fintech AI",
+          "value_funding_usd": 25000000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 6000000.0
+        },
+        {
+          "name": "Retail & Commerce",
+          "value_funding_usd": 3700000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "22ea914f4ad1a385ec211f8672051155a2d390755677664a231ca81f703421bb",
+          "startup_name": "BemAgro",
+          "deal_count": 1,
+          "total_funding_usd": 30300000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "603982c6da2933de60f770c1a400521c3b1ed34a310b2eacd7af917feae4ec03",
+          "startup_name": "Inner AI",
+          "deal_count": 1,
+          "total_funding_usd": 30000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "666421f0115331b9c20f10cc6bffa578b8e4233d04d4b28feacd545675bc927d",
+          "startup_name": "Azos",
+          "deal_count": 1,
+          "total_funding_usd": 25000000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "a9f915d4389feb7027ecc456a753bef38a4ad19db4a7989bb571e1c1fdbb0800",
+          "startup_name": "Lastro",
+          "deal_count": 1,
+          "total_funding_usd": 4000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "005ec2f9452c1b9dcad9ca6dddc4af891dc3ba016bb69b2928a423018cc650b3",
+          "startup_name": "Maggu AI",
+          "deal_count": 1,
+          "total_funding_usd": 3700000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "c432c48254977055d6c6f274659ed9e7d42dac0d410147e2243dd318e0c22cae",
+          "startup_name": "PX Data",
+          "deal_count": 1,
+          "total_funding_usd": 3000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "64cff9fc686b05676e2d04ac2a49a64981c9c4d72e7905205bc9b112e0fb1c75",
+          "startup_name": "BOND AI Accounting",
+          "deal_count": 1,
+          "total_funding_usd": 2000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "4f93571070c0a15c348e5f22fc5bdc948caf0835ee14a3843aadebd755420d1a",
+          "startup_name": "Hubbi",
+          "deal_count": 1,
+          "total_funding_usd": 1200000.0,
+          "latest_round": "Grant",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "c5cf3036d1bc21a6016deb0c9a6729a992eb74acf51ef74b247a9ea1974e634f",
+          "startup_name": "Neotrip",
+          "deal_count": 1,
+          "total_funding_usd": 500000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "a871c257f464f9425c2359ee5bda9475f9e01d4f355ac8105b32f810811fe61d",
+          "startup_name": "Fala\u00ea",
+          "deal_count": 1,
+          "total_funding_usd": 300000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "39adef5c1291d7dc692261ac9b5b9e00bff4329568f2b5eae515ea642282f8ab",
+          "startup_name": "Core AI",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-07"
+        }
+      ]
+    },
+    "Britain": {
+      "country_meta": {
+        "country": "Britain",
+        "iso2": "GB",
+        "iso3": "GBR",
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "kpis": {
+        "total_deals": 62,
+        "total_funding_usd": 2958834132.73,
+        "average_deal_usd": 56900656.4,
+        "active_startups": 62
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 11,
+          "funding_usd": 460475000.0
+        },
+        {
+          "date": "2026-04-04",
+          "deal_count": 5,
+          "funding_usd": 2083800000.0
+        },
+        {
+          "date": "2026-04-05",
+          "deal_count": 6,
+          "funding_usd": 67900500.0
+        },
+        {
+          "date": "2026-04-06",
+          "deal_count": 8,
+          "funding_usd": 31700000.0
+        },
+        {
+          "date": "2026-04-09",
+          "deal_count": 3,
+          "funding_usd": 19191168.84
+        },
+        {
+          "date": "2026-04-11",
+          "deal_count": 5,
+          "funding_usd": 84400000.0
+        },
+        {
+          "date": "2026-04-15",
+          "deal_count": 6,
+          "funding_usd": 100810000.0
+        },
+        {
+          "date": "2026-04-17",
+          "deal_count": 3,
+          "funding_usd": 3099577.49
+        },
+        {
+          "date": "2026-04-19",
+          "deal_count": 4,
+          "funding_usd": 12027565.7
+        },
+        {
+          "date": "2026-04-21",
+          "deal_count": 1,
+          "funding_usd": 13328235.87
+        },
+        {
+          "date": "2026-04-22",
+          "deal_count": 1,
+          "funding_usd": 1348186.76
+        },
+        {
+          "date": "2026-04-23",
+          "deal_count": 9,
+          "funding_usd": 80753898.08
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 7
+        },
+        {
+          "round": "Seed",
+          "deal_count": 17
+        },
+        {
+          "round": "Series A",
+          "deal_count": 7
+        },
+        {
+          "round": "Series B",
+          "deal_count": 1
+        },
+        {
+          "round": "Series C",
+          "deal_count": 3
+        },
+        {
+          "round": "Series D+",
+          "deal_count": 1
+        },
+        {
+          "round": "Growth/Late Stage",
+          "deal_count": 3
+        },
+        {
+          "round": "Grant",
+          "deal_count": 1
+        },
+        {
+          "round": "Strategic",
+          "deal_count": 7
+        },
+        {
+          "round": "Other",
+          "deal_count": 15
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 2040448186.76
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 451060505.25
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 128300000.0
+        },
+        {
+          "name": "Health AI",
+          "value_funding_usd": 125300000.0
+        },
+        {
+          "name": "AI",
+          "value_funding_usd": 77453898.08
+        },
+        {
+          "name": "Robotics",
+          "value_funding_usd": 70000000.0
+        },
+        {
+          "name": "Cybersecurity AI",
+          "value_funding_usd": 30526427.83
+        },
+        {
+          "name": "CleanTech",
+          "value_funding_usd": 13328235.87
+        },
+        {
+          "name": "Developer Tooling",
+          "value_funding_usd": 7937500.0
+        },
+        {
+          "name": "Climate & Energy",
+          "value_funding_usd": 7000000.0
+        },
+        {
+          "name": "Healthtech",
+          "value_funding_usd": 3300000.0
+        },
+        {
+          "name": "Recruitment Tech",
+          "value_funding_usd": 2291917.49
+        },
+        {
+          "name": "Education AI",
+          "value_funding_usd": 1887461.46
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "337494278a5393aebd8e72edfc73c8f7cf326c797e58c673b4bb9696d3d2632a",
+          "startup_name": "Nscale",
+          "deal_count": 1,
+          "total_funding_usd": 2000000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "05f601fefaa16293029b1b6a66eef495a090e125012f2c239b44bbd29f914483",
+          "startup_name": "9fin",
+          "deal_count": 1,
+          "total_funding_usd": 170000000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "7fe9dafbf5327d43626843a820b7271d823f6d00cc3a09886ed83b852bd3b18a",
+          "startup_name": "Granola",
+          "deal_count": 1,
+          "total_funding_usd": 125000000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "02c66763409b07eeff4e4b01e902050f1a130126921eeeec9cf3fcd4cbf1a84a",
+          "startup_name": "Immutrin",
+          "deal_count": 1,
+          "total_funding_usd": 81250000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "87cf12228de569e4dc5a6d82400ceed12696788937528d23697c28ed93f80812",
+          "startup_name": "Cloudsmith",
+          "deal_count": 1,
+          "total_funding_usd": 71453898.08,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-23"
+        },
+        {
+          "startup_id": "2e9476d6dabb77a1c4ea402a8f220276f581bcdb6bf564c4079470af6b0cdbe8",
+          "startup_name": "Wayve",
+          "deal_count": 1,
+          "total_funding_usd": 60000000.0,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "ffd5a2d54ce21705a40e35def1462f2c19948f105406472c146b418b53329428",
+          "startup_name": "MillTech",
+          "deal_count": 1,
+          "total_funding_usd": 60000000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-11"
+        },
+        {
+          "startup_id": "719374938d2208802324b480c631025fd4a14e2ead39c6d4ca70f56d85fcd19a",
+          "startup_name": "Isembard",
+          "deal_count": 1,
+          "total_funding_usd": 50000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "fb7c7cf7f1f0ddd950f0d20105a983d0235f464db86958e11b5500ef6b894351",
+          "startup_name": "Sona",
+          "deal_count": 1,
+          "total_funding_usd": 44213000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "a5668ad11890927b071bf9d32069ebbd845f2bb20c66e419c351fa3ee4521495",
+          "startup_name": "Origin",
+          "deal_count": 1,
+          "total_funding_usd": 30000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "994e5ff3d30e0a618b11f53eba74d56b4f60336874656892d64a0891a4b35f74",
+          "startup_name": "Narwhal Labs",
+          "deal_count": 1,
+          "total_funding_usd": 27000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "2fa0456ae09dc7e8bda74d97fde209604d6b954fb2b784959cc41f5db929e34f",
+          "startup_name": "Trent AI",
+          "deal_count": 1,
+          "total_funding_usd": 17526427.83,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "fe391105cda2c13155077dd4a8699a8c0c4798ee901e0a10e63c24dd8c6b0c5d",
+          "startup_name": "JAAQ",
+          "deal_count": 1,
+          "total_funding_usd": 17000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "a41674d49a606827d97a8de698bb156eb67843617de74fec66a3371b04b1a5cc",
+          "startup_name": "Exergy3",
+          "deal_count": 1,
+          "total_funding_usd": 13328235.87,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-21"
+        },
+        {
+          "startup_id": "55a43ae30fa9d119148fd542d59f0babddb7a9a10ce147a87aca29b2a61f6d7a",
+          "startup_name": "Trent AI Ltd.",
+          "deal_count": 1,
+          "total_funding_usd": 13000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-11"
+        },
+        {
+          "startup_id": "5cafabbc3309f9a34a24c87cbb5fe5c7931f452d5b5f7b60cb7aac147fe33c89",
+          "startup_name": "Epoch Biodesign",
+          "deal_count": 1,
+          "total_funding_usd": 12000000.0,
+          "latest_round": "Strategic",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "3978f66f46f0a17c77f381b1ed4e6783e0a98ac48808fc6adc0f1abd3e81b82f",
+          "startup_name": "Lucida Medical",
+          "deal_count": 1,
+          "total_funding_usd": 11250000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "0c1e47a8a48e216f0aaf7726880c2693462aa414a5bd7c1acfbe74d564243750",
+          "startup_name": "Dexory",
+          "deal_count": 1,
+          "total_funding_usd": 10600000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "4215304ca89c1ef81c3574ca5f7b60a77a9c8e08a2d794687c9c161db32aef11",
+          "startup_name": "Giraffe360",
+          "deal_count": 1,
+          "total_funding_usd": 10000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "b785350c19700db25c7f3e8152ba31f8e181d0e21730f967fe1523e91adc5db5",
+          "startup_name": "CavilinQ",
+          "deal_count": 1,
+          "total_funding_usd": 8800000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "bfdc1d5e4553aa6e3d74695fc2f9ff5eeb8aebd9c42d1d073e1c6fb707f132b0",
+          "startup_name": "Cara",
+          "deal_count": 1,
+          "total_funding_usd": 8000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "9cf1ba708c0539b5f0162a5524f65e3c21a8efe1eabe09b296f6776eeb08d16d",
+          "startup_name": "Theia Insights",
+          "deal_count": 1,
+          "total_funding_usd": 8000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "db48e0539481a7a5c97e3bf02773d6478cd77abdea1159b5a0981ba0204007e9",
+          "startup_name": "Eunice",
+          "deal_count": 1,
+          "total_funding_usd": 8000000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "e63fc86933296c40f125f4bcdf2f53a1c48afd74db7b2a8d903ce4b2ee76b6a5",
+          "startup_name": "Zevero",
+          "deal_count": 1,
+          "total_funding_usd": 7000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "8aaf6ab954433f56b70dd8ef723c9ef5505bf79a3ae5b9afd943f197555f85df",
+          "startup_name": "Gensyn",
+          "deal_count": 1,
+          "total_funding_usd": 6500000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-19"
+        }
+      ]
+    },
+    "Canada": {
+      "country_meta": {
+        "country": "Canada",
+        "iso2": "CA",
+        "iso3": "CAN",
+        "region": "Americas",
+        "subregion": "Northern America"
+      },
+      "kpis": {
+        "total_deals": 48,
+        "total_funding_usd": 1285743130.0,
+        "average_deal_usd": 30612931.67,
+        "active_startups": 48
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-01",
+          "deal_count": 11,
+          "funding_usd": 125690000.0
+        },
+        {
+          "date": "2026-04-02",
+          "deal_count": 5,
+          "funding_usd": 73700000.0
+        },
+        {
+          "date": "2026-04-03",
+          "deal_count": 2,
+          "funding_usd": 94490000.0
+        },
+        {
+          "date": "2026-04-04",
+          "deal_count": 1,
+          "funding_usd": 10000000.0
+        },
+        {
+          "date": "2026-04-06",
+          "deal_count": 2,
+          "funding_usd": 86000000.0
+        },
+        {
+          "date": "2026-04-07",
+          "deal_count": 5,
+          "funding_usd": 178576000.0
+        },
+        {
+          "date": "2026-04-10",
+          "deal_count": 2,
+          "funding_usd": 520000000.0
+        },
+        {
+          "date": "2026-04-11",
+          "deal_count": 2,
+          "funding_usd": 26100000.0
+        },
+        {
+          "date": "2026-04-15",
+          "deal_count": 4,
+          "funding_usd": 32558000.0
+        },
+        {
+          "date": "2026-04-16",
+          "deal_count": 2,
+          "funding_usd": 2403000.0
+        },
+        {
+          "date": "2026-04-17",
+          "deal_count": 6,
+          "funding_usd": 10916130.0
+        },
+        {
+          "date": "2026-04-18",
+          "deal_count": 2,
+          "funding_usd": 45000000.0
+        },
+        {
+          "date": "2026-04-23",
+          "deal_count": 4,
+          "funding_usd": 80310000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 5
+        },
+        {
+          "round": "Seed",
+          "deal_count": 16
+        },
+        {
+          "round": "Series A",
+          "deal_count": 7
+        },
+        {
+          "round": "Series B",
+          "deal_count": 6
+        },
+        {
+          "round": "Series C",
+          "deal_count": 2
+        },
+        {
+          "round": "Acceleration",
+          "deal_count": 1
+        },
+        {
+          "round": "Debt",
+          "deal_count": 1
+        },
+        {
+          "round": "Grant",
+          "deal_count": 1
+        },
+        {
+          "round": "Venture/Other",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 8
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 722040000.0
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 160684130.0
+        },
+        {
+          "name": "Health AI",
+          "value_funding_usd": 153116000.0
+        },
+        {
+          "name": "Climate & Energy",
+          "value_funding_usd": 107930000.0
+        },
+        {
+          "name": "Robotics",
+          "value_funding_usd": 68630000.0
+        },
+        {
+          "name": "Retail & Commerce",
+          "value_funding_usd": 26900000.0
+        },
+        {
+          "name": "Education AI",
+          "value_funding_usd": 20973000.0
+        },
+        {
+          "name": "Fintech AI",
+          "value_funding_usd": 18840000.0
+        },
+        {
+          "name": "Cybersecurity AI",
+          "value_funding_usd": 4000000.0
+        },
+        {
+          "name": "Supply Chain",
+          "value_funding_usd": 2630000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 0.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "953b3b73c157a13adc7b2d5d5b7a12f85a2e7a10605d45c3b8f60315300f2c3e",
+          "startup_name": "Cohere",
+          "deal_count": 1,
+          "total_funding_usd": 500000000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-10"
+        },
+        {
+          "startup_id": "e2d5a14ecd50a84b88aba1473057a4bf50bac838c915ebd6ff8cacd3305c3ba9",
+          "startup_name": "Sherweb",
+          "deal_count": 1,
+          "total_funding_usd": 91560000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "605814bc041a4727921dfd243534cafd488bb95c7e433774efe303f049d50d02",
+          "startup_name": "Aspect Biosystems",
+          "deal_count": 1,
+          "total_funding_usd": 79000000.0,
+          "latest_round": "Grant",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "c0539bf1954118b385fca085d9b8ad98a8f9cd6599e2db35aa62032949b2f4c1",
+          "startup_name": "Biossil",
+          "deal_count": 1,
+          "total_funding_usd": 70000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-23"
+        },
+        {
+          "startup_id": "503d381eaf56bda31c721c1498b8a15b929b81a162d7d9ad4c76c6bb6d226dd8",
+          "startup_name": "e-Zinc",
+          "deal_count": 1,
+          "total_funding_usd": 57670000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "0f81bbd0a58f24c2de782c5e780396d3b98c74c7b192d4b68bf4c7ac4078e264",
+          "startup_name": "Xaba",
+          "deal_count": 1,
+          "total_funding_usd": 57670000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "7afb46003c34b90bcede698e6c211b69f572589f0e83667fa5396185a7cbb6a4",
+          "startup_name": "InPho (ElectroPhotonic-IC)",
+          "deal_count": 1,
+          "total_funding_usd": 57670000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "12dd59288b74991d7f611e26f6b7c1e6f8f2fb178dc9dd822e1c8182600edea5",
+          "startup_name": "Gumloop",
+          "deal_count": 1,
+          "total_funding_usd": 50000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "101463b4ab1452007b4f2716849e723841bd71d4f469f9e06b26bda4f11c39da",
+          "startup_name": "Expo",
+          "deal_count": 1,
+          "total_funding_usd": 45000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "7983237b1d7e0269bb8f80da9f297ce95588e04e47681f462b47f0275e8400e5",
+          "startup_name": "Spade",
+          "deal_count": 1,
+          "total_funding_usd": 40000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "ad447f9fd82ed48003a8c2b60eb69e7e8e6472d99754fd92a599cba43881f12d",
+          "startup_name": "ThinkLabs AI",
+          "deal_count": 1,
+          "total_funding_usd": 28000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "0526b3a6c37b0226fdef061e953732ecd9ca1f533505d7ecaa382e7f11e5e325",
+          "startup_name": "ThinkLabs",
+          "deal_count": 1,
+          "total_funding_usd": 28000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "8402f7684b5a90b9673ab05cb117b558473778cfbbccad053690928a131b0e5d",
+          "startup_name": "Mappedin",
+          "deal_count": 1,
+          "total_funding_usd": 24500000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-11"
+        },
+        {
+          "startup_id": "8ddd2d53ee001e8561b4b97095d52ca36c91c2b2eef91d710c527757c157f917",
+          "startup_name": "Kepler Communications",
+          "deal_count": 1,
+          "total_funding_usd": 21900000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "08c840a30ad223e5ee8a58e9a5917f9d0a2ed65558c1b05de88563ed9c1e149d",
+          "startup_name": "Micruity",
+          "deal_count": 1,
+          "total_funding_usd": 20000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-10"
+        },
+        {
+          "startup_id": "a6b1b0e93b1768195103db611eaa383eb1f3df8de27fddf598975957cf80226b",
+          "startup_name": "Miraterra",
+          "deal_count": 1,
+          "total_funding_usd": 11520000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "f5c6b093b4f3d9fb3f530d4ecfc1c650b8fe2fca201763c22565f3f51adcfda0",
+          "startup_name": "Chexy",
+          "deal_count": 1,
+          "total_funding_usd": 10080000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "053e55da18b8ee40eec0e141955e360427957a4deb7a301679226fadbe1beb01",
+          "startup_name": "Carbon Upcycling Technologies",
+          "deal_count": 1,
+          "total_funding_usd": 10000000.0,
+          "latest_round": "Debt",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "5266ca5c773099a99a572797fd5b99e70bc6a71dce488cbc3a604ff06517223c",
+          "startup_name": "Common Wealth",
+          "deal_count": 1,
+          "total_funding_usd": 8760000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "02c60c06d3738ad407aabe11f744e5bec86d27279377d32a5882390665766d16",
+          "startup_name": "General Magic",
+          "deal_count": 1,
+          "total_funding_usd": 7200000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "fa19dd93bcf6ce349bba2422417f53278959aec0c044b2a08bdeb11f674f6bb9",
+          "startup_name": "Soma Energy",
+          "deal_count": 1,
+          "total_funding_usd": 7000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "a740b7b1b3ef05764251f3b2bd180134fb90dff8efd2850308ddc803ca5f366c",
+          "startup_name": "pH7Technologies",
+          "deal_count": 1,
+          "total_funding_usd": 6200000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "ce0a834e8c97d002508d3826e887f77b083726475ee028da54beb4df1f7dd3de",
+          "startup_name": "A&K Robotics",
+          "deal_count": 1,
+          "total_funding_usd": 5850000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-23"
+        },
+        {
+          "startup_id": "e8de7523c49325bef9f614f0018130070bf9a710c5551ece8ccff0dd8948812d",
+          "startup_name": "Cognota",
+          "deal_count": 1,
+          "total_funding_usd": 5750000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "64b725d24a1d94729e473db363c0a208d7515a32be920baf89f3aa8d12855d00",
+          "startup_name": "JetScale AI",
+          "deal_count": 1,
+          "total_funding_usd": 5400000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-01"
+        }
+      ]
+    },
+    "China": {
+      "country_meta": {
+        "country": "China",
+        "iso2": "CN",
+        "iso3": "CHN",
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "kpis": {
+        "total_deals": 35,
+        "total_funding_usd": 4829900000.0,
+        "average_deal_usd": 209995652.17,
+        "active_startups": 35
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 2,
+          "funding_usd": 291000000.0
+        },
+        {
+          "date": "2026-04-05",
+          "deal_count": 5,
+          "funding_usd": 591900000.0
+        },
+        {
+          "date": "2026-04-06",
+          "deal_count": 15,
+          "funding_usd": 2694700000.0
+        },
+        {
+          "date": "2026-04-15",
+          "deal_count": 8,
+          "funding_usd": 461000000.0
+        },
+        {
+          "date": "2026-04-17",
+          "deal_count": 3,
+          "funding_usd": 338300000.0
+        },
+        {
+          "date": "2026-04-19",
+          "deal_count": 2,
+          "funding_usd": 453000000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Seed",
+          "deal_count": 7
+        },
+        {
+          "round": "Series A",
+          "deal_count": 8
+        },
+        {
+          "round": "Series B",
+          "deal_count": 8
+        },
+        {
+          "round": "Series C",
+          "deal_count": 3
+        },
+        {
+          "round": "Series D+",
+          "deal_count": 1
+        },
+        {
+          "round": "Growth/Late Stage",
+          "deal_count": 2
+        },
+        {
+          "round": "Strategic",
+          "deal_count": 2
+        },
+        {
+          "round": "Other",
+          "deal_count": 4
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 2438700000.0
+        },
+        {
+          "name": "Robotics",
+          "value_funding_usd": 1183700000.0
+        },
+        {
+          "name": "Health AI",
+          "value_funding_usd": 787000000.0
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 248600000.0
+        },
+        {
+          "name": "Developer Tooling",
+          "value_funding_usd": 96600000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 60700000.0
+        },
+        {
+          "name": "Climate & Energy",
+          "value_funding_usd": 14600000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "760dd9a007e7fd19b7512a06d8e1580cbc5b993c9c8a71efa919d4e641515816",
+          "startup_name": "Earendil Labs",
+          "deal_count": 1,
+          "total_funding_usd": 787000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "272fbf6ab50aaddf4861c7403ce54fededd516112ed59138f05c21f362670a2c",
+          "startup_name": "Sunrise (\u66e6\u671bSunrise)",
+          "deal_count": 1,
+          "total_funding_usd": 414000000.0,
+          "latest_round": "Strategic",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "2c6b0cf0e5f1851b2cfe27a4b862656346482946d588b0cda354e1f10a9691f7",
+          "startup_name": "Hangzhou XiWang Sunrise (\u66e6\u671bSunrise)",
+          "deal_count": 1,
+          "total_funding_usd": 414000000.0,
+          "latest_round": "Strategic",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "e2d05b1220a81a7471da668b4bf6f9939fbdbf520529793356605505d32af355",
+          "startup_name": "ShengShu Technology",
+          "deal_count": 1,
+          "total_funding_usd": 293000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "6d24b6c7f1725b7a7c2bdbb8514850832405cb7e401e535672e94f0cecb04508",
+          "startup_name": "ShengShu Technology (\u76db\u6570\u79d1\u6280)",
+          "deal_count": 1,
+          "total_funding_usd": 293000000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "5551f989bcf7a95f95fe33b6cda127c74478dfae31e2a2c88b06e72a3a6e0a2c",
+          "startup_name": "Galaxea AI",
+          "deal_count": 1,
+          "total_funding_usd": 291000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "46f79b020071e2a1efc0b664cba0ca49134fdcf2e4244e2fdf157ba63585e725",
+          "startup_name": "Galaxea AI (Galaxea Dynamics)",
+          "deal_count": 1,
+          "total_funding_usd": 290400000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "6c4ebee69a4e079835f741ee4db2314e403fa7558a05feb3758565b3a483ba4e",
+          "startup_name": "Simplexity Robotics",
+          "deal_count": 1,
+          "total_funding_usd": 289300000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "d1fe64eb1d7ba488cfe6f2df568c841de2411001fab9b6c8fa131bd76377975a",
+          "startup_name": "Shengshu Technology / Vidu \u751f\u6570\u79d1\u6280",
+          "deal_count": 1,
+          "total_funding_usd": 286000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "814e45fe17b688cd946b09e133e5818d4c18dd4d5465e2635b092086ce4e4767",
+          "startup_name": "Qianxun Intelligent (\u5343\u5bfb\u667a\u80fd)",
+          "deal_count": 1,
+          "total_funding_usd": 276000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "79ef7adf9f554c6f1a2861e0f67741f43f3d352a427e0ad6422719bf6a7e42bb",
+          "startup_name": "Zhuji Dynamics (\u9010\u9645\u52a8\u529b)",
+          "deal_count": 1,
+          "total_funding_usd": 200000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "8c49a7317a4e2de18fee76c9b3871aa071f6ba9544ae55ae5d6ad09473529648",
+          "startup_name": "Geek+",
+          "deal_count": 1,
+          "total_funding_usd": 200000000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "f3d73067b6cc8b53f2315510ca464f20f763476ac580736e6510e17f2098ecb8",
+          "startup_name": "Manycore Tech",
+          "deal_count": 1,
+          "total_funding_usd": 160000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "eea3845e3d79ae95a8334c5a2a2c746e1b7b42f60c846b1a9ddc9a595c590b6d",
+          "startup_name": "Spirit AI",
+          "deal_count": 1,
+          "total_funding_usd": 145000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "b624a09f22f4772faf951d98c752636e3506dfef4381836bfbe53e14154d28ce",
+          "startup_name": "Diguar Robot (\u5730\u74dc\u673a\u5668\u4eba)",
+          "deal_count": 1,
+          "total_funding_usd": 120000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "d9ce3e7c24f4d86919ebc6be631c5488db01c97b3c2a3794c46963b321369ba4",
+          "startup_name": "Beijing Humanoid Robot Innovation Center",
+          "deal_count": 1,
+          "total_funding_usd": 96700000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "73d7ded28da5b04c0d5501ee17e0293b710dbf7cdaa6e3ea3483f9d8dae29c65",
+          "startup_name": "Humanoid Robot Innovation Center",
+          "deal_count": 1,
+          "total_funding_usd": 96600000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "9ba90cc1a97e7ea926589d36928884ea1d659b59da8a5a2e7326c7666ebf76da",
+          "startup_name": "SpinQ Technology",
+          "deal_count": 1,
+          "total_funding_usd": 87200000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "805ddace7bb31147e6d8eb18487dbe6ed59f3a55394c78a90546f47f0682b2a7",
+          "startup_name": "Redbear AI",
+          "deal_count": 1,
+          "total_funding_usd": 30700000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "52030e359b87e5a138b07855f67d34860d741ab121721255172558646c06583c",
+          "startup_name": "RedBear AI \u7ea2\u718aAI",
+          "deal_count": 1,
+          "total_funding_usd": 30000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "8e8b96d7a6446edcbb7b3be30920aa089071928e371ea6b6797e85ea574f1ad2",
+          "startup_name": "ZingTech",
+          "deal_count": 1,
+          "total_funding_usd": 14600000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "53532a5b75e1cf564f8fca456c68e432cdbbc98d0c97008883d658958eca0842",
+          "startup_name": "Daina Experimental Technology Co., Ltd.",
+          "deal_count": 1,
+          "total_funding_usd": 14000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "c3aad5db1a7f60d7db3ee542781663522c1611ae1305240e3d93a445092241b5",
+          "startup_name": "Matrix Power Technologies",
+          "deal_count": 1,
+          "total_funding_usd": 1400000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "7ac49cb1f7a35ace5176137d927c00cfcdcb070eee0f0d4aef1865a62d926f41",
+          "startup_name": "\u7487\u7391\u52a8\u529b (Xuanji Dongli / RoboMaster Power)",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "a77c28459032109741140fd54ee900eb22bfa5c3c307d3b5ef65def7020cc5fd",
+          "startup_name": "SynapX \u7ae0\u9c7c\u52a8\u529b",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        }
+      ]
+    },
+    "Denmark": {
+      "country_meta": {
+        "country": "Denmark",
+        "iso2": "DK",
+        "iso3": "DNK",
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "kpis": {
+        "total_deals": 6,
+        "total_funding_usd": 34818715.25,
+        "average_deal_usd": 5803119.21,
+        "active_startups": 6
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 1,
+          "funding_usd": 1753715.25
+        },
+        {
+          "date": "2026-04-04",
+          "deal_count": 1,
+          "funding_usd": 1620000.0
+        },
+        {
+          "date": "2026-04-09",
+          "deal_count": 2,
+          "funding_usd": 7595000.0
+        },
+        {
+          "date": "2026-04-18",
+          "deal_count": 2,
+          "funding_usd": 23850000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 3
+        },
+        {
+          "round": "Pre-Series A",
+          "deal_count": 1
+        },
+        {
+          "round": "Series A",
+          "deal_count": 2
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 25603715.25
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 9215000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "02258dd3db10c39960e476f1d848aae10d36dbf95b8d57a9070ff6d89a0eeab3",
+          "startup_name": "Spektr",
+          "deal_count": 1,
+          "total_funding_usd": 20000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "0833908ce91f4aa8ab82fe1f32a009b88e28543a20c3f1ccf4c3e2fc23fd3008",
+          "startup_name": "deepdots",
+          "deal_count": 1,
+          "total_funding_usd": 5967500.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "c37303cbb59e3fa1fcfb4460f5a7df86db684ce66091e70f48b2bf6dd51feb9f",
+          "startup_name": "Flare",
+          "deal_count": 1,
+          "total_funding_usd": 3850000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "1231a72305c98fdb5ecc2c7c4a75dfd2b41585d1fabf4d176119a27aaec9b170",
+          "startup_name": "Financial News Systems (FNS)",
+          "deal_count": 1,
+          "total_funding_usd": 1753715.25,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "f2b8ae5a4968b294bb1949fc6770b5d0732e2d681c1561c14a9575e9f93507b4",
+          "startup_name": "Financial News Systems",
+          "deal_count": 1,
+          "total_funding_usd": 1627500.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "000952de9cd07ab4b944df9f5876c4b999b25ca602d35170a6f9cda9ee80433f",
+          "startup_name": "AI newsroom Financial News System",
+          "deal_count": 1,
+          "total_funding_usd": 1620000.0,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-04"
+        }
+      ]
+    },
+    "Dubai": {
+      "country_meta": {
+        "country": "Dubai",
+        "iso2": "AE",
+        "iso3": "ARE",
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "kpis": {
+        "total_deals": 7,
+        "total_funding_usd": 1615500000.0,
+        "average_deal_usd": 323100000.0,
+        "active_startups": 7
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-01",
+          "deal_count": 2,
+          "funding_usd": 230000000.0
+        },
+        {
+          "date": "2026-04-03",
+          "deal_count": 1,
+          "funding_usd": 5500000.0
+        },
+        {
+          "date": "2026-04-04",
+          "deal_count": 3,
+          "funding_usd": 1380000000.0
+        },
+        {
+          "date": "2026-04-07",
+          "deal_count": 1,
+          "funding_usd": 0.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 1
+        },
+        {
+          "round": "Seed",
+          "deal_count": 3
+        },
+        {
+          "round": "Growth/Late Stage",
+          "deal_count": 1
+        },
+        {
+          "round": "Bridge",
+          "deal_count": 1
+        },
+        {
+          "round": "Strategic",
+          "deal_count": 1
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 1030000000.0
+        },
+        {
+          "name": "Fintech AI",
+          "value_funding_usd": 480000000.0
+        },
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 100000000.0
+        },
+        {
+          "name": "Developer Tooling",
+          "value_funding_usd": 5500000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "dc4388d51d492313ce5c691b9faf9e08e97a76723b0c021bdb311a50df63555b",
+          "startup_name": "Advanced Machine Intelligence Labs (AMI Labs)",
+          "deal_count": 1,
+          "total_funding_usd": 1030000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "3bf2770023c7d28a07a98b4c7b61a9fd65e216cc8cbddb6e88a79de94bbd6b15",
+          "startup_name": "ADGT",
+          "deal_count": 1,
+          "total_funding_usd": 250000000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "1b43d77e3c303f89507f21915d58ddf08a02ca3fb7ca829cb9f0f00d07feb2e6",
+          "startup_name": "Mal",
+          "deal_count": 1,
+          "total_funding_usd": 230000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "596139ffa596a8c6bbf88aa7a7bdddbed5e042c282c51eef73ff91ac36625d40",
+          "startup_name": "NodeShift",
+          "deal_count": 1,
+          "total_funding_usd": 100000000.0,
+          "latest_round": "Strategic",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "8967f1e4117ee163e315df4e258fd7b98100488febdfef4bf3af2d69f754cdac",
+          "startup_name": "zypl.ai",
+          "deal_count": 1,
+          "total_funding_usd": 5500000.0,
+          "latest_round": "Bridge",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "286c60650f62b4f1ea5a23d41eb9803d475b7e4c692ba8048716f420e3412787",
+          "startup_name": "estaie",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "b109e5edd431414f6688126625640494dcabaa9d1e33985cfdf1b48fb379b00f",
+          "startup_name": "Mezza",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-01"
+        }
+      ]
+    },
+    "Finland": {
+      "country_meta": {
+        "country": "Finland",
+        "iso2": "FI",
+        "iso3": "FIN",
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "kpis": {
+        "total_deals": 11,
+        "total_funding_usd": 20141576000.0,
+        "average_deal_usd": 1831052363.64,
+        "active_startups": 11
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 4,
+          "funding_usd": 10057196000.0
+        },
+        {
+          "date": "2026-04-04",
+          "deal_count": 3,
+          "funding_usd": 10058720000.0
+        },
+        {
+          "date": "2026-04-11",
+          "deal_count": 1,
+          "funding_usd": 1730000.0
+        },
+        {
+          "date": "2026-04-17",
+          "deal_count": 2,
+          "funding_usd": 23330000.0
+        },
+        {
+          "date": "2026-04-19",
+          "deal_count": 1,
+          "funding_usd": 600000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 2
+        },
+        {
+          "round": "Seed",
+          "deal_count": 2
+        },
+        {
+          "round": "Pre-Series A",
+          "deal_count": 1
+        },
+        {
+          "round": "Series A",
+          "deal_count": 2
+        },
+        {
+          "round": "Series B",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 3
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 20073690000.0
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 65990000.0
+        },
+        {
+          "name": "Cybersecurity AI",
+          "value_funding_usd": 1296000.0
+        },
+        {
+          "name": "Retail & Commerce",
+          "value_funding_usd": 600000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "8dc7fc83772c964ea0510161ff8711e1ece06dd9139b8fdc35cf7f15bf1f2767",
+          "startup_name": "Polarnode Oy",
+          "deal_count": 1,
+          "total_funding_usd": 10000000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "13f6d3d89f911962f6f468a15f5cb4e60532d99f2efb5b5c9c1075aa14066b81",
+          "startup_name": "Nebius",
+          "deal_count": 1,
+          "total_funding_usd": 10000000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "a2e82d79d7842c0f9240bb4b0857e53c6454e90aa4c88e57d2537b03c70e7d4b",
+          "startup_name": "IQM Quantum Computers",
+          "deal_count": 1,
+          "total_funding_usd": 57640000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "76497ddeb5e085bc81a2ea217a98bdd35c78cbb70ac49eea6116cc3a31e0b795",
+          "startup_name": "IQM",
+          "deal_count": 1,
+          "total_funding_usd": 54000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "fe73dd6d350931453dfa18ed3281a17ca0bc4d1ced698d0291ea04d29b31b935",
+          "startup_name": "Kelluu",
+          "deal_count": 1,
+          "total_funding_usd": 16050000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "1ffe3555c24bfcd9458e6c292d63ddfde2eb304261dfef4142efa9aed1980aaa",
+          "startup_name": "Treon",
+          "deal_count": 1,
+          "total_funding_usd": 7280000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "304679118adf04a9782e4cdcc40d3b6ba05ae4026f4aec4e20b4f1e6b7183d95",
+          "startup_name": "Audicin",
+          "deal_count": 1,
+          "total_funding_usd": 1900000.0,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "18d04866ceb46a2a61ac4c347e50fbe533e6a32a45c8f8714e23757c72664711",
+          "startup_name": "Sensmet",
+          "deal_count": 1,
+          "total_funding_usd": 1730000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-11"
+        },
+        {
+          "startup_id": "71965c4934999a4bf5fdf81af4a024be4c06164f31a38a4d8987cc79236389c6",
+          "startup_name": "Test of Things",
+          "deal_count": 1,
+          "total_funding_usd": 1296000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "1a952da1f8693f3e5a5722edab31e2227403b4259417b87b81ed927d58c7834b",
+          "startup_name": "Metaktik",
+          "deal_count": 1,
+          "total_funding_usd": 1080000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "259c3dea2bf45f61b31582f95ad654d1681b891419bed3d01de0f3aa5c55c788",
+          "startup_name": "Jaakko.com",
+          "deal_count": 1,
+          "total_funding_usd": 600000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-19"
+        }
+      ]
+    },
+    "France": {
+      "country_meta": {
+        "country": "France",
+        "iso2": "FR",
+        "iso3": "FRA",
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "kpis": {
+        "total_deals": 14,
+        "total_funding_usd": 1070917869.91,
+        "average_deal_usd": 82378297.69,
+        "active_startups": 14
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 3,
+          "funding_usd": 1000880365.05
+        },
+        {
+          "date": "2026-04-06",
+          "deal_count": 3,
+          "funding_usd": 15918400.0
+        },
+        {
+          "date": "2026-04-07",
+          "deal_count": 2,
+          "funding_usd": 10800000.0
+        },
+        {
+          "date": "2026-04-09",
+          "deal_count": 2,
+          "funding_usd": 9353147.98
+        },
+        {
+          "date": "2026-04-19",
+          "deal_count": 4,
+          "funding_usd": 33965956.88
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 1
+        },
+        {
+          "round": "Seed",
+          "deal_count": 5
+        },
+        {
+          "round": "Pre-Series A",
+          "deal_count": 1
+        },
+        {
+          "round": "Series A",
+          "deal_count": 1
+        },
+        {
+          "round": "Growth/Late Stage",
+          "deal_count": 1
+        },
+        {
+          "round": "Debt",
+          "deal_count": 1
+        },
+        {
+          "round": "Grant",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 3
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 999617690.08
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 48713770.43
+        },
+        {
+          "name": "Robotics",
+          "value_funding_usd": 12626749.77
+        },
+        {
+          "name": "Climate & Energy",
+          "value_funding_usd": 9959659.64
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "2d16e53562d0dedc5f9e7e6616ebf89c28da30ddd4a191a6c6d7d531220a177a",
+          "startup_name": "Mistral AI",
+          "deal_count": 1,
+          "total_funding_usd": 970389102.65,
+          "latest_round": "Debt",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "9103c548ab618af0b6527e0c2e65048fda0ea462f4a4770107ed29ced9dd5c4e",
+          "startup_name": "Kestra",
+          "deal_count": 1,
+          "total_funding_usd": 29228587.43,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "dfa3f7a21f20f3679d91eb7a6917b5b60703cf4c3839934f77e58f3626372786",
+          "startup_name": "C12",
+          "deal_count": 1,
+          "total_funding_usd": 17551182.18,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "2a06bea4ae7fc5aa65a4ac662b38bf356a69331746af67376926d249295036b0",
+          "startup_name": "Donecle",
+          "deal_count": 1,
+          "total_funding_usd": 12626749.77,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "27476cd957a19692b2ba229ced31039135d993959c523484796b62f7deaa44d1",
+          "startup_name": "Twin",
+          "deal_count": 1,
+          "total_funding_usd": 10000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "d72d63dd374208ba5d35d0086a55958759494d60949e11fce5e5fd296a10356b",
+          "startup_name": "Cobl.ai",
+          "deal_count": 1,
+          "total_funding_usd": 6480000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "68fc4f85be52774bbb3ff888690701b41220633ea27ec2301cfc8a22a3707da6",
+          "startup_name": "SCorp-io",
+          "deal_count": 1,
+          "total_funding_usd": 5400000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "93c779eb825a8906562beeed50a8acb6165f410c995c9dedd9267374d031e8ab",
+          "startup_name": "Omniscient",
+          "deal_count": 1,
+          "total_funding_usd": 4793488.34,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "680f98b06e675466a44b8a313f0e8126af44d01590fa53f99fdb14f0a7574a80",
+          "startup_name": "Plume",
+          "deal_count": 1,
+          "total_funding_usd": 4559659.64,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "5b839d79a2e9f9d638e1229a1f2bbc60b3305e124780f814327348626bffade2",
+          "startup_name": "AI6 Technologies",
+          "deal_count": 1,
+          "total_funding_usd": 4320000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "fe788f9dc9b70fcd287def8370408e1e0380057471d22e8d37308db185a571bd",
+          "startup_name": "Arterya",
+          "deal_count": 1,
+          "total_funding_usd": 3788024.93,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "33ddf1a16cb73ddc96356a07c17579105d117ea805edbf72d1c2a24fbe397952",
+          "startup_name": "OOrion",
+          "deal_count": 1,
+          "total_funding_usd": 1262674.98,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "f0366547f567811b17cfd249a94bd9b5462be8666f9cac3c75fed16c16b8ba53",
+          "startup_name": "EarthDaily",
+          "deal_count": 1,
+          "total_funding_usd": 518400.0,
+          "latest_round": "Grant",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "250d87e50e070346b7880997114ee9b8e68cabdbfe176d7d7fb65095951776f8",
+          "startup_name": "WavKong V2700",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-19"
+        }
+      ]
+    },
+    "Germany": {
+      "country_meta": {
+        "country": "Germany",
+        "iso2": "DE",
+        "iso3": "DEU",
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "kpis": {
+        "total_deals": 13,
+        "total_funding_usd": 253506000.0,
+        "average_deal_usd": 19500461.54,
+        "active_startups": 13
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 7,
+          "funding_usd": 194800000.0
+        },
+        {
+          "date": "2026-04-05",
+          "deal_count": 2,
+          "funding_usd": 3996000.0
+        },
+        {
+          "date": "2026-04-11",
+          "deal_count": 3,
+          "funding_usd": 17610000.0
+        },
+        {
+          "date": "2026-04-15",
+          "deal_count": 1,
+          "funding_usd": 37100000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 1
+        },
+        {
+          "round": "Seed",
+          "deal_count": 4
+        },
+        {
+          "round": "Series A",
+          "deal_count": 3
+        },
+        {
+          "round": "Series B",
+          "deal_count": 3
+        },
+        {
+          "round": "Grant",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 1
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 125436000.0
+        },
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 58340000.0
+        },
+        {
+          "name": "Climate & Energy",
+          "value_funding_usd": 43500000.0
+        },
+        {
+          "name": "Robotics",
+          "value_funding_usd": 12900000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 7560000.0
+        },
+        {
+          "name": "Developer Tooling",
+          "value_funding_usd": 5770000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "4768e98d42661b0101664be5f18e0fc54317f319bffa7371ad79c0d002784832",
+          "startup_name": "Qdrant",
+          "deal_count": 1,
+          "total_funding_usd": 46500000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "2ed10a658175d7012275fab97c3ac80c16bc3d3d3ba6ad0f6f122fd01dfde15d",
+          "startup_name": "Midas",
+          "deal_count": 1,
+          "total_funding_usd": 46500000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "2cb7c9093ffc05c0766822db37d93a1a7db0c044fd22ecc934004942a8853e21",
+          "startup_name": "PaperShell",
+          "deal_count": 1,
+          "total_funding_usd": 43500000.0,
+          "latest_round": "Grant",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "bc520252b05c1f673f4d87c18195a01b7746edddac2479c0714ac9e9b1721627",
+          "startup_name": "Silverflow",
+          "deal_count": 1,
+          "total_funding_usd": 40000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "b27d81bf2eae73d50c25ad20fca4030f6ac490f5ceaffc0082f14bf3668301f1",
+          "startup_name": "Synera",
+          "deal_count": 1,
+          "total_funding_usd": 37100000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "9549259117a909dd2bcbc2c18ff16ebe7eddced44c00989a00b472bd584e90d2",
+          "startup_name": "eternal.ag",
+          "deal_count": 1,
+          "total_funding_usd": 8600000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "04b47e2436f5f25eb70c577749eff19f3fa7c70e3315d9b883c2f9678d6c86a4",
+          "startup_name": "BLOCKS",
+          "deal_count": 1,
+          "total_funding_usd": 6000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-11"
+        },
+        {
+          "startup_id": "7971f3b3302e0e594a6342b4bbc1fedb574a80b929bb3b93a4d7a90764a84427",
+          "startup_name": "Pixel Photonics",
+          "deal_count": 1,
+          "total_funding_usd": 5840000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-11"
+        },
+        {
+          "startup_id": "b7bad8fedb10771f656fbd915fde58828415ebd96dca3efc561f941860be38e0",
+          "startup_name": "CONXAI",
+          "deal_count": 1,
+          "total_funding_usd": 5770000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-11"
+        },
+        {
+          "startup_id": "8c9dd05c8ef4e4b46a8976fc7364160b5953cb9e7189a16d36fe297314dcd54a",
+          "startup_name": "Logistikbude",
+          "deal_count": 1,
+          "total_funding_usd": 5400000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "0cb030a18fc828c26db78ef35e3acc537738ac441fa60ec54a5f0610af23fe1e",
+          "startup_name": "Nature Robots",
+          "deal_count": 1,
+          "total_funding_usd": 4300000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "a6474516093c14e02d4fb78dd5bb05c5802123bb95927200ceb3c8c59adb6691",
+          "startup_name": "Deeplify",
+          "deal_count": 1,
+          "total_funding_usd": 2160000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "e3b76e8cbc3528d9f411e9d1585534ace0ee0395072c872e27f5ed7039d3a76e",
+          "startup_name": "Penemue",
+          "deal_count": 1,
+          "total_funding_usd": 1836000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-05"
+        }
+      ]
+    },
+    "India": {
+      "country_meta": {
+        "country": "India",
+        "iso2": "IN",
+        "iso3": "IND",
+        "region": "Asia",
+        "subregion": "Southern Asia"
+      },
+      "kpis": {
+        "total_deals": 76,
+        "total_funding_usd": 2579172328.91,
+        "average_deal_usd": 38495109.39,
+        "active_startups": 76
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-01",
+          "deal_count": 15,
+          "funding_usd": 177910000.0
+        },
+        {
+          "date": "2026-04-02",
+          "deal_count": 5,
+          "funding_usd": 1668440000.0
+        },
+        {
+          "date": "2026-04-03",
+          "deal_count": 2,
+          "funding_usd": 47000000.0
+        },
+        {
+          "date": "2026-04-04",
+          "deal_count": 7,
+          "funding_usd": 143994.74
+        },
+        {
+          "date": "2026-04-06",
+          "deal_count": 4,
+          "funding_usd": 15100000.0
+        },
+        {
+          "date": "2026-04-07",
+          "deal_count": 7,
+          "funding_usd": 72356000.0
+        },
+        {
+          "date": "2026-04-09",
+          "deal_count": 2,
+          "funding_usd": 20000000.24
+        },
+        {
+          "date": "2026-04-11",
+          "deal_count": 8,
+          "funding_usd": 791333.93
+        },
+        {
+          "date": "2026-04-15",
+          "deal_count": 13,
+          "funding_usd": 520728000.0
+        },
+        {
+          "date": "2026-04-17",
+          "deal_count": 3,
+          "funding_usd": 22015000.0
+        },
+        {
+          "date": "2026-04-18",
+          "deal_count": 5,
+          "funding_usd": 8808000.0
+        },
+        {
+          "date": "2026-04-19",
+          "deal_count": 2,
+          "funding_usd": 5950000.0
+        },
+        {
+          "date": "2026-04-23",
+          "deal_count": 3,
+          "funding_usd": 19930000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 8
+        },
+        {
+          "round": "Seed",
+          "deal_count": 18
+        },
+        {
+          "round": "Pre-Series A",
+          "deal_count": 8
+        },
+        {
+          "round": "Series A",
+          "deal_count": 11
+        },
+        {
+          "round": "Series B",
+          "deal_count": 7
+        },
+        {
+          "round": "Series C",
+          "deal_count": 1
+        },
+        {
+          "round": "Series D+",
+          "deal_count": 2
+        },
+        {
+          "round": "Growth/Late Stage",
+          "deal_count": 2
+        },
+        {
+          "round": "Debt",
+          "deal_count": 1
+        },
+        {
+          "round": "Grant",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 17
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 1694545095.41
+        },
+        {
+          "name": "Fintech AI",
+          "value_funding_usd": 306151959.05
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 267993619.79
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 256843726.68
+        },
+        {
+          "name": "Cybersecurity AI",
+          "value_funding_usd": 23930000.0
+        },
+        {
+          "name": "Education AI",
+          "value_funding_usd": 12005627.67
+        },
+        {
+          "name": "Retail & Commerce",
+          "value_funding_usd": 8600000.0
+        },
+        {
+          "name": "Climate & Energy",
+          "value_funding_usd": 5640000.24
+        },
+        {
+          "name": "Developer Tooling",
+          "value_funding_usd": 2000000.0
+        },
+        {
+          "name": "Health AI",
+          "value_funding_usd": 1440000.0
+        },
+        {
+          "name": "Robotics",
+          "value_funding_usd": 22300.07
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "1e2ad840883220146a38359745037ac002371dccd887a517091be400112a31ab",
+          "startup_name": "Neysa",
+          "deal_count": 1,
+          "total_funding_usd": 1200000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "6996a6916551a2b96196922ea7eace5abdd82eac9ef9247bfd3d952f73224724",
+          "startup_name": "Sarvam AI",
+          "deal_count": 1,
+          "total_funding_usd": 350000000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "96c8099a51b12ee9ef91287ac607cef84d6db16128800c22395e8c7ebef64e46",
+          "startup_name": "KreditBee",
+          "deal_count": 1,
+          "total_funding_usd": 280000000.0,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "d4225dcb40728099b3ef4a6a610ecb634c31975f56e9f1182894c72c82960303",
+          "startup_name": "Wingify",
+          "deal_count": 1,
+          "total_funding_usd": 150000000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "b09889f708b63edd8e5345d15521950edd7d9de56347df66ceff401f8c2e1eba",
+          "startup_name": "OpenFX",
+          "deal_count": 1,
+          "total_funding_usd": 94000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "07006f4164765960b7233931ad38cb0fa62cd6bc4720c8b7b4d56d081dd4de56",
+          "startup_name": "Emergent",
+          "deal_count": 1,
+          "total_funding_usd": 70000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "9f2ae6c602135b1ac395aa97fa2d36485b5af3924dd4f85347f7a88efbdea3f8",
+          "startup_name": "Rocketlane",
+          "deal_count": 1,
+          "total_funding_usd": 60000000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "9c4ce76c9ec700327fc4c09bcdc098d593185b25c5f985b033872f65fd04047f",
+          "startup_name": "Noon",
+          "deal_count": 1,
+          "total_funding_usd": 44000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "748c4429824547862b6bea8ab94820699b844c324918dc3f6fd99096ddf4bbba",
+          "startup_name": "Deccan AI",
+          "deal_count": 1,
+          "total_funding_usd": 25000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "e9cf7614651b74ee50176958cbb2fd7e5545c2d5932fd05cebf0bef5a56faa8d",
+          "startup_name": "IDfy",
+          "deal_count": 1,
+          "total_funding_usd": 24300000.0,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "09dc6e272d5b261169953c326f7544bfeec9e6277cc4ed4684fe0a6f62573bc8",
+          "startup_name": "Plum",
+          "deal_count": 1,
+          "total_funding_usd": 23000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "4350cda357da3073b84d1dd3217b8b54d4b1db509e052f21f360d25ffd08e5f6",
+          "startup_name": "TsecondAI",
+          "deal_count": 1,
+          "total_funding_usd": 21500000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "bcf7717d910c0f2ffd235e2bf67e44306870bf2fd47bd109794965b5b09a6f3f",
+          "startup_name": "Plum Insurance",
+          "deal_count": 1,
+          "total_funding_usd": 20500000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "ed97f4fcf7046c3dbdae96a68c34378e4cf6cb08b961b5f9947453ffa9adf6d1",
+          "startup_name": "Bellatrix Aerospace",
+          "deal_count": 1,
+          "total_funding_usd": 20000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "62035368405f89c7d460340da19c2869e593bc47abc2b21fe5c5223fe4575a81",
+          "startup_name": "GobbleCube",
+          "deal_count": 1,
+          "total_funding_usd": 15000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "7975fbd6267d80a7df8c89913ff61967aaa37947905972b2b5898a1c0b575191",
+          "startup_name": "C2I Semiconductors",
+          "deal_count": 1,
+          "total_funding_usd": 15000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "58f22e45ccbf45ad73fffc2111d5ad4e45bd388938a6a737dc18badb8435b088",
+          "startup_name": "Portkey",
+          "deal_count": 1,
+          "total_funding_usd": 15000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "911152f53a0a141fb782eb78061f4266ecfc360e2d3179f5fa1acbe87bacd54a",
+          "startup_name": "Nurix",
+          "deal_count": 1,
+          "total_funding_usd": 14700000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "ae448df1dd690de2ab25dbcda3542f12ab54799338b51a574a6634039d585ef3",
+          "startup_name": "Bachatt",
+          "deal_count": 1,
+          "total_funding_usd": 12000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "27a621ed40ac6acd144528665e713d55c3a63165b3e26a82d072a8b1356cf6ef",
+          "startup_name": "OFF/BEAT",
+          "deal_count": 1,
+          "total_funding_usd": 11800000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "33cb5d072d6bf402a6cf36230d0037a248501101fa58bdbe55038ac7e67843d1",
+          "startup_name": "M (Curious Digital Pvt Ltd)",
+          "deal_count": 1,
+          "total_funding_usd": 11000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-23"
+        },
+        {
+          "startup_id": "b58c4324a0df8df3c443418bcd1062206db6094b33b3a1ddd204aef84dc56adc",
+          "startup_name": "Vervesemi Microelectronics",
+          "deal_count": 1,
+          "total_funding_usd": 10000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "b6032bf04355a0004731c881c1a3dcc5861dad7738ea3318b0e1ecbbe71e998c",
+          "startup_name": "Gnani.ai",
+          "deal_count": 1,
+          "total_funding_usd": 10000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "84f054b0d7280fbb26e278e5157f720a1e02d02af5c9fda3f71c0551604c3e5a",
+          "startup_name": "NowPurchase",
+          "deal_count": 1,
+          "total_funding_usd": 8600000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "17011536c1dcb23f0113692d074ff9d20462b0ae4dd79e7101c4039045e737b1",
+          "startup_name": "TraqCheck",
+          "deal_count": 1,
+          "total_funding_usd": 8000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-15"
+        }
+      ]
+    },
+    "Ireland": {
+      "country_meta": {
+        "country": "Ireland",
+        "iso2": "IE",
+        "iso3": "IRL",
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "kpis": {
+        "total_deals": 10,
+        "total_funding_usd": 100558474.38,
+        "average_deal_usd": 10055847.44,
+        "active_startups": 10
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-11",
+          "deal_count": 1,
+          "funding_usd": 910000.0
+        },
+        {
+          "date": "2026-04-15",
+          "deal_count": 5,
+          "funding_usd": 12846000.0
+        },
+        {
+          "date": "2026-04-17",
+          "deal_count": 4,
+          "funding_usd": 86802474.38
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 3
+        },
+        {
+          "round": "Seed",
+          "deal_count": 5
+        },
+        {
+          "round": "Series A",
+          "deal_count": 2
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "Robotics",
+          "value_funding_usd": 53780600.87
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 38589873.51
+        },
+        {
+          "name": "Cybersecurity AI",
+          "value_funding_usd": 6588000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 1600000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "b95310eed02e5f96a74b653163cc8046cd2121c01a676f56bd5953623acba461",
+          "startup_name": "Ulysses",
+          "deal_count": 1,
+          "total_funding_usd": 53780600.87,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "0f88f4f56c73ecd639df60b9084ee011d9922d4e4ee1863ace633e5b5ad0bf31",
+          "startup_name": "Solidroad",
+          "deal_count": 1,
+          "total_funding_usd": 29228587.43,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "51b03201e880b2cda80ede7d2e5401bf45e49ca1fbe14a0c7a797c46e5f9a28a",
+          "startup_name": "Octostar",
+          "deal_count": 1,
+          "total_funding_usd": 6588000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "3a214b0e6342c6e9fb5b353052ee9e3463490b73c4a53d998c949b29a9b76e65",
+          "startup_name": "Otel AI",
+          "deal_count": 1,
+          "total_funding_usd": 2130000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "39c2cab370cd8c0aec1a77b41abae8000ec732a6ff7ecf6e94fab7598aa94ece",
+          "startup_name": "Audrey AI",
+          "deal_count": 1,
+          "total_funding_usd": 2104458.29,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "ffca89cd5679e2a530b7aceccb39f40bbd03116690517744175107076b10dd2b",
+          "startup_name": "Vox Talk",
+          "deal_count": 1,
+          "total_funding_usd": 1688827.78,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "94084ce585acdb9b969e04761a699db1512f5c6bed7bed8fbee2e47c3aa21487",
+          "startup_name": "Apex B2B",
+          "deal_count": 1,
+          "total_funding_usd": 1600000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "92a34fac2b53124b24938709b283d342279e6e9a2d21c278fb884f4b8ca7f4db",
+          "startup_name": "Vox Talk AI",
+          "deal_count": 1,
+          "total_funding_usd": 1458000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "1377ac7154684087f95dd3e06aec6024cb8229fce93235109a342644b1f0212e",
+          "startup_name": "Assiduous",
+          "deal_count": 1,
+          "total_funding_usd": 1070000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "a6e1834e0e0e302b41c97d0e9259fa4ca712fc24351e7b149b7519a39e7d7ae9",
+          "startup_name": "Zellor",
+          "deal_count": 1,
+          "total_funding_usd": 910000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-11"
+        }
+      ]
+    },
+    "Israel": {
+      "country_meta": {
+        "country": "Israel",
+        "iso2": "IL",
+        "iso3": "ISR",
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "kpis": {
+        "total_deals": 42,
+        "total_funding_usd": 3435000000.0,
+        "average_deal_usd": 85875000.0,
+        "active_startups": 42
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 19,
+          "funding_usd": 890000000.0
+        },
+        {
+          "date": "2026-04-04",
+          "deal_count": 6,
+          "funding_usd": 96500000.0
+        },
+        {
+          "date": "2026-04-05",
+          "deal_count": 6,
+          "funding_usd": 370000000.0
+        },
+        {
+          "date": "2026-04-06",
+          "deal_count": 3,
+          "funding_usd": 136500000.0
+        },
+        {
+          "date": "2026-04-10",
+          "deal_count": 2,
+          "funding_usd": 44000000.0
+        },
+        {
+          "date": "2026-04-17",
+          "deal_count": 3,
+          "funding_usd": 1737000000.0
+        },
+        {
+          "date": "2026-04-21",
+          "deal_count": 3,
+          "funding_usd": 161000000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Seed",
+          "deal_count": 17
+        },
+        {
+          "round": "Series A",
+          "deal_count": 7
+        },
+        {
+          "round": "Series B",
+          "deal_count": 7
+        },
+        {
+          "round": "Series C",
+          "deal_count": 2
+        },
+        {
+          "round": "Growth/Late Stage",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 8
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 2177000000.0
+        },
+        {
+          "name": "Cybersecurity AI",
+          "value_funding_usd": 484000000.0
+        },
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 269000000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 200000000.0
+        },
+        {
+          "name": "Data Infrastructure",
+          "value_funding_usd": 73000000.0
+        },
+        {
+          "name": "Developer Tooling",
+          "value_funding_usd": 70000000.0
+        },
+        {
+          "name": "SaaS",
+          "value_funding_usd": 58000000.0
+        },
+        {
+          "name": "Retail & Commerce",
+          "value_funding_usd": 58000000.0
+        },
+        {
+          "name": "AI",
+          "value_funding_usd": 30000000.0
+        },
+        {
+          "name": "Health AI",
+          "value_funding_usd": 16000000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "50305ad4b073d927474ef9158e562ff139ce2dc25c2caeed26fe9a38e34caba4",
+          "startup_name": "DustPhotonics",
+          "deal_count": 1,
+          "total_funding_usd": 1300000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "f2be6c8d6d6db73725ab94a3f953eb10536fbd7de186b203476e5c95d5b45b21",
+          "startup_name": "Teramount",
+          "deal_count": 1,
+          "total_funding_usd": 430000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "08a11be572ff87f9bd6b6873a7eaec00c9ac80a244b78c6cea91c7320b7e1d65",
+          "startup_name": "Wonderful",
+          "deal_count": 1,
+          "total_funding_usd": 150000000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "8325b6cb92ca7da4dfdf4bbac292373f54b348c1c77c1a9870db391ac22f849d",
+          "startup_name": "ScaleOps",
+          "deal_count": 1,
+          "total_funding_usd": 130000000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "3d0226c9e10dd3f9e8b81faa98073f51538c4f630e9b6c3ede52994838d78011",
+          "startup_name": "Vega",
+          "deal_count": 1,
+          "total_funding_usd": 120000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "c9cfd9fcbb4ac4be0efd03071d91619ae25049d0ac3b505549638ff7a919f22c",
+          "startup_name": "Oasis Security",
+          "deal_count": 1,
+          "total_funding_usd": 120000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "cd429d0d91d77c3ea0487e0d00ac1576e1f2fe2f98507cb73e2f865197f8c478",
+          "startup_name": "Decart",
+          "deal_count": 1,
+          "total_funding_usd": 100000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "7d5e0a9b7a22e07ea9376d5c3143f8d900320ab4354bcb0efb0163bc17dcb10f",
+          "startup_name": "AdgeAI",
+          "deal_count": 1,
+          "total_funding_usd": 100000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "b00f98b468b02c9b617dd4fecdddf18ca87c05cc8cea17bee48d32b035db8da4",
+          "startup_name": "NoTraffic",
+          "deal_count": 1,
+          "total_funding_usd": 90000000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "7f99344f0bc002e7c0682525d0151913b3c11822b1add16d4fde331b5260b7eb",
+          "startup_name": "Factify",
+          "deal_count": 1,
+          "total_funding_usd": 73000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-21"
+        },
+        {
+          "startup_id": "38c9005e939917f2242c5ffba34143d93649e608c38e096ac085872bb482dc22",
+          "startup_name": "Qodo",
+          "deal_count": 1,
+          "total_funding_usd": 70000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "08e60b960d61fb25e393cd0c3e3b4db51ce7a715178b6bea89bf796c667b525f",
+          "startup_name": "Appcharge",
+          "deal_count": 1,
+          "total_funding_usd": 58000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-21"
+        },
+        {
+          "startup_id": "d8aabf3e166779778264ee5fecf2e8d89f9c1b21f39b3da2154a7caac0d2faeb",
+          "startup_name": "ZyG",
+          "deal_count": 1,
+          "total_funding_usd": 58000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "adeaa2b257c98eff15bb6148db5931567bb733e3d7362c4374cddb86cc3b4d2c",
+          "startup_name": "Surf AI",
+          "deal_count": 1,
+          "total_funding_usd": 57000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-05"
+        },
+        {
+          "startup_id": "4653a10c3a527dcc36d0a3cd0027f247dbcd251b8b13fbd2c9e0f01fbe2df3f2",
+          "startup_name": "Linx Security",
+          "deal_count": 1,
+          "total_funding_usd": 50000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "e5824b29e38594823df046e339716e76b90ee7fd4cbec6993cafbf293ed2f638",
+          "startup_name": "Cylake",
+          "deal_count": 1,
+          "total_funding_usd": 45000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "1152c8d5d387bc38d9725496ecac37927d08c572b790586968c18449416162d3",
+          "startup_name": "Jazz",
+          "deal_count": 1,
+          "total_funding_usd": 43000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "fb480da671448f4e60a13d1338cc7b272c84944f2bdae78afdc84d70db7cbf1c",
+          "startup_name": "Above Security",
+          "deal_count": 1,
+          "total_funding_usd": 43000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "d2ce7ca1b9ab100867c47492c85322af2881bfe6f8c5ba6d650d41aab6d73d9e",
+          "startup_name": "Onyx Security",
+          "deal_count": 1,
+          "total_funding_usd": 35000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "c9d7cdba7669a2d583963f6fd87aa89a8e256bc0727f8389a307c59412413163",
+          "startup_name": "Native",
+          "deal_count": 1,
+          "total_funding_usd": 31000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "d4fd56554bc330faf30aea6fcf34db0efe7dacb3fd9de3af2bf3068633c011aa",
+          "startup_name": "Brandlight",
+          "deal_count": 1,
+          "total_funding_usd": 30000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-21"
+        },
+        {
+          "startup_id": "787a43ed1c47ba0792712ae9eabb8868da235ecd4e6a83d245a8eebd08bee9eb",
+          "startup_name": "Reco",
+          "deal_count": 1,
+          "total_funding_usd": 30000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "9f689b3bb10a827864553a528eb29cca64a886de3ff6baf161dea3a175c71370",
+          "startup_name": "Notch",
+          "deal_count": 1,
+          "total_funding_usd": 30000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "40cd9afca06dbd82ea013292a7c6c1d1f03363855016847387ac41da781aaafe",
+          "startup_name": "Voltify",
+          "deal_count": 1,
+          "total_funding_usd": 30000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "68dd984f8356998c90d77f69c22e1eba22cfd3b936700ae13a1cc9c3fff031ff",
+          "startup_name": "Sett",
+          "deal_count": 1,
+          "total_funding_usd": 30000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-03"
+        }
+      ]
+    },
+    "Japan": {
+      "country_meta": {
+        "country": "Japan",
+        "iso2": "JP",
+        "iso3": "JPN",
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "kpis": {
+        "total_deals": 10,
+        "total_funding_usd": 8084237645.0,
+        "average_deal_usd": 898248627.22,
+        "active_startups": 10
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 2,
+          "funding_usd": 63700000.0
+        },
+        {
+          "date": "2026-04-15",
+          "deal_count": 4,
+          "funding_usd": 4002083774.0
+        },
+        {
+          "date": "2026-04-17",
+          "deal_count": 1,
+          "funding_usd": 10970000.0
+        },
+        {
+          "date": "2026-04-19",
+          "deal_count": 3,
+          "funding_usd": 4007483871.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Seed",
+          "deal_count": 4
+        },
+        {
+          "round": "Pre-Series A",
+          "deal_count": 1
+        },
+        {
+          "round": "Series A",
+          "deal_count": 1
+        },
+        {
+          "round": "Debt",
+          "deal_count": 2
+        },
+        {
+          "round": "Strategic",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 1
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 4050000000.0
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 4014796774.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 12260323.0
+        },
+        {
+          "name": "Developer Tooling",
+          "value_funding_usd": 7180548.0
+        },
+        {
+          "name": "Fintech AI",
+          "value_funding_usd": 0.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "01922251be2ddc7780ca180ea8745d56c844448f733c19d0fe511f6e3bc35b99",
+          "startup_name": "Rapidus Corporation",
+          "deal_count": 1,
+          "total_funding_usd": 4000000000.0,
+          "latest_round": "Strategic",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "92e8a7373f583a3342a09eaf7b79df899ca433ab7635bccc7269d48f1afd8897",
+          "startup_name": "Rapidus",
+          "deal_count": 1,
+          "total_funding_usd": 4000000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "fb130027fb058716bdd7db95116e8a8219f1467c6154d8cbfaef059b0ca13b68",
+          "startup_name": "AI&",
+          "deal_count": 1,
+          "total_funding_usd": 50000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "b793eec1dc69d3787052d687dfb479db4b43773a41001a251773474377c1916f",
+          "startup_name": "Micronity",
+          "deal_count": 1,
+          "total_funding_usd": 13700000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "080a49079ccfb2558ca411ba30c5e320943f3bc54d17ae7311ff10799ab53689",
+          "startup_name": "RECERQA",
+          "deal_count": 1,
+          "total_funding_usd": 10970000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "21aa5576824ce1fe149da404ba186c68344d0f594d7b1a71951f63a6d429d52f",
+          "startup_name": "Acompany",
+          "deal_count": 1,
+          "total_funding_usd": 6193548.0,
+          "latest_round": "Debt",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "093a4a3e0032e01b04211068d4436e2d8c6b2e30674441dc58fd9a029c6fc905",
+          "startup_name": "Forward Inc.",
+          "deal_count": 1,
+          "total_funding_usd": 1290323.0,
+          "latest_round": "Debt",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "5774c9d8d3d75a39f9c0a018193c2052ca177a962e0d10847bd9720d01f26f86",
+          "startup_name": "\u682a\u5f0f\u4f1a\u793e\u30cb\u30e5\u30fc\u30e9\u30eb\u30dd\u30fc\u30c8 (Neural Port Inc.)",
+          "deal_count": 1,
+          "total_funding_usd": 1096774.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "d961b7b5596bdce6686be8423e85aa94b325b315e9f8ca0b6d56760aa7f63102",
+          "startup_name": "SIGQ Inc.",
+          "deal_count": 1,
+          "total_funding_usd": 987000.0,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "4e4e4059887e2ef32951eb1cea9505581ffeb9e113063854cb6ce428ad2ef988",
+          "startup_name": "Shizuku AI",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        }
+      ]
+    },
+    "Luxembourg": {
+      "country_meta": {
+        "country": "Luxembourg",
+        "iso2": "LU",
+        "iso3": "LUX",
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "kpis": {
+        "total_deals": 4,
+        "total_funding_usd": 26530000.0,
+        "average_deal_usd": 6632500.0,
+        "active_startups": 4
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-06",
+          "deal_count": 1,
+          "funding_usd": 5400000.0
+        },
+        {
+          "date": "2026-04-17",
+          "deal_count": 2,
+          "funding_usd": 13130000.0
+        },
+        {
+          "date": "2026-04-18",
+          "deal_count": 1,
+          "funding_usd": 8000000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 2
+        },
+        {
+          "round": "Seed",
+          "deal_count": 2
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 13400000.0
+        },
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 10000000.0
+        },
+        {
+          "name": "Retail & Commerce",
+          "value_funding_usd": 3130000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "3c89df835601650ad7d788c6f9a5fdf59f987603545bf73b825b9d47c81ae772",
+          "startup_name": "Helical",
+          "deal_count": 1,
+          "total_funding_usd": 10000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-17"
+        },
+        {
+          "startup_id": "5572fb4f7eb2619f0e083aedee58757fdc9881ea6b1af2672c6a3f4757d8813e",
+          "startup_name": "Passbolt",
+          "deal_count": 1,
+          "total_funding_usd": 8000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "08399b98475904d492205b4b27370a2ab45e37bee741d2f6080a563bb54edf17",
+          "startup_name": "TerraSpark",
+          "deal_count": 1,
+          "total_funding_usd": 5400000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-06"
+        },
+        {
+          "startup_id": "b450cd2f62d70c303fd835bba42a4e264aad2694da8dd84155aee540da418ac8",
+          "startup_name": "Partao",
+          "deal_count": 1,
+          "total_funding_usd": 3130000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-17"
+        }
+      ]
+    },
+    "Netherlands": {
+      "country_meta": {
+        "country": "Netherlands",
+        "iso2": "NL",
+        "iso3": "NLD",
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "kpis": {
+        "total_deals": 13,
+        "total_funding_usd": 361796800.0,
+        "average_deal_usd": 27830523.08,
+        "active_startups": 13
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 1,
+          "funding_usd": 4606800.0
+        },
+        {
+          "date": "2026-04-04",
+          "deal_count": 4,
+          "funding_usd": 191480000.0
+        },
+        {
+          "date": "2026-04-09",
+          "deal_count": 2,
+          "funding_usd": 24900000.0
+        },
+        {
+          "date": "2026-04-22",
+          "deal_count": 2,
+          "funding_usd": 13910000.0
+        },
+        {
+          "date": "2026-04-23",
+          "deal_count": 4,
+          "funding_usd": 126900000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 1
+        },
+        {
+          "round": "Seed",
+          "deal_count": 5
+        },
+        {
+          "round": "Series A",
+          "deal_count": 4
+        },
+        {
+          "round": "Series B",
+          "deal_count": 2
+        },
+        {
+          "round": "Growth/Late Stage",
+          "deal_count": 1
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 150340000.0
+        },
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 146960000.0
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 37496800.0
+        },
+        {
+          "name": "Health AI",
+          "value_funding_usd": 27000000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "7e41b5ecdd61f7ab6cc7d40dd970a5dab472ab4809d41c436238cd02a5958db9",
+          "startup_name": "Wonderful",
+          "deal_count": 1,
+          "total_funding_usd": 139640000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "0c3b884233a0df03448c808d5f64153de8ec0db421df0518ef13e41caf8f38bb",
+          "startup_name": "Euclyd",
+          "deal_count": 1,
+          "total_funding_usd": 107000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-23"
+        },
+        {
+          "startup_id": "e95e028e83cf84fff9d255b126f46ea96d878e1c47f66f3c65b4c9e8070a530d",
+          "startup_name": "Silverflow",
+          "deal_count": 1,
+          "total_funding_usd": 39960000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "5b030a4def23d293dc96f7c095f7b2df934171fe2d34b893bffcec20f834df41",
+          "startup_name": "OpenUp",
+          "deal_count": 1,
+          "total_funding_usd": 21600000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "59d6ab53ae58d8a288fd6b464e9be0a3c674270ab9c14165b667e1fd787e814e",
+          "startup_name": "ScreenPoint Medical",
+          "deal_count": 1,
+          "total_funding_usd": 14550000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-23"
+        },
+        {
+          "startup_id": "aaa83c9b4c79044a1da9812f49d3ce03dcf6fed1cb3918d8fb7b99fbc8f9e75e",
+          "startup_name": "Smart Robotics",
+          "deal_count": 1,
+          "total_funding_usd": 10700000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-22"
+        },
+        {
+          "startup_id": "3af1d0c5a65b02e65bb95d1f12b3d7aa193c5bcbfff73ad9c24be7be1e3d462a",
+          "startup_name": "Brilliance",
+          "deal_count": 1,
+          "total_funding_usd": 6480000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "80569413376211664234af81e19cb8a53d4a6c0546769f9f864f6886990a41eb",
+          "startup_name": "Reson8",
+          "deal_count": 1,
+          "total_funding_usd": 5400000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "e1dc70daccb705c747cf2d341ce3a02c51a5170988a0b038e2623b871d8a6434",
+          "startup_name": "SOUS",
+          "deal_count": 1,
+          "total_funding_usd": 4606800.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "b29fbd14db6ed26eb086f34e5979148e533d8463d009e2c8a4c388ce17c153ae",
+          "startup_name": "Bubty",
+          "deal_count": 1,
+          "total_funding_usd": 3300000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "75078f7911a35d192a70ce6122b51af9c86ae8f45abddeacd46d88316c678f11",
+          "startup_name": "OrangeQS (Orange Quantum Systems)",
+          "deal_count": 1,
+          "total_funding_usd": 3210000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-23"
+        },
+        {
+          "startup_id": "494b52c974ca99aa30dbec2f3a192985945ff71b7ae1a88250cff38cfb8c7d24",
+          "startup_name": "OrangeQS",
+          "deal_count": 1,
+          "total_funding_usd": 3210000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-22"
+        },
+        {
+          "startup_id": "a6702b3ee3fca80d3a5f5186d41a339c9e98fb9e3ca34d331626bf32772f1666",
+          "startup_name": "Aizy",
+          "deal_count": 1,
+          "total_funding_usd": 2140000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-23"
+        }
+      ]
+    },
+    "Portugal": {
+      "country_meta": {
+        "country": "Portugal",
+        "iso2": "PT",
+        "iso3": "PRT",
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "kpis": {
+        "total_deals": 3,
+        "total_funding_usd": 41338286.99,
+        "average_deal_usd": 13779429.0,
+        "active_startups": 3
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-19",
+          "deal_count": 2,
+          "funding_usd": 35338286.99
+        },
+        {
+          "date": "2026-04-24",
+          "deal_count": 1,
+          "funding_usd": 6000000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 1
+        },
+        {
+          "round": "Seed",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 1
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 33000000.0
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 6000000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 2338286.99
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "7b83e137ba9b2d684721d7008933814a2fc99402eca9020c6a6dd03df9b80618",
+          "startup_name": "Bloq.it",
+          "deal_count": 1,
+          "total_funding_usd": 33000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "1f4a4d62b1ac5302af8202d30afcecac8b1f1f2042cdb4cd5a90f3f875f61fd8",
+          "startup_name": "DOJO AI",
+          "deal_count": 1,
+          "total_funding_usd": 6000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-24"
+        },
+        {
+          "startup_id": "c80919b3e9dc6f6933d585d2ff1892746f526abf6954fd89c6aae7a41bf92dd4",
+          "startup_name": "Spinnable AI",
+          "deal_count": 1,
+          "total_funding_usd": 2338286.99,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-19"
+        }
+      ]
+    },
+    "Russia": {
+      "country_meta": {
+        "country": "Russia",
+        "iso2": "RU",
+        "iso3": "RUS",
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "kpis": {
+        "total_deals": 1,
+        "total_funding_usd": 444444.0,
+        "average_deal_usd": 444444.0,
+        "active_startups": 1
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-11",
+          "deal_count": 1,
+          "funding_usd": 444444.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Seed",
+          "deal_count": 1
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 444444.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "7bb89021e2bbf0b5009667e230faee5d8a657c1f5b383099d2d19f5bffa3c735",
+          "startup_name": "Yourtunes (\u042e\u0440\u0442\u044e\u043d\u0441)",
+          "deal_count": 1,
+          "total_funding_usd": 444444.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-11"
+        }
+      ]
+    },
+    "Singapore": {
+      "country_meta": {
+        "country": "Singapore",
+        "iso2": "SG",
+        "iso3": "SGP",
+        "region": "Asia",
+        "subregion": "South-eastern Asia"
+      },
+      "kpis": {
+        "total_deals": 19,
+        "total_funding_usd": 2441475000.0,
+        "average_deal_usd": 135637500.0,
+        "active_startups": 19
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-01",
+          "deal_count": 2,
+          "funding_usd": 10125000.0
+        },
+        {
+          "date": "2026-04-02",
+          "deal_count": 1,
+          "funding_usd": 100000000.0
+        },
+        {
+          "date": "2026-04-04",
+          "deal_count": 2,
+          "funding_usd": 7500000.0
+        },
+        {
+          "date": "2026-04-07",
+          "deal_count": 1,
+          "funding_usd": 150000000.0
+        },
+        {
+          "date": "2026-04-09",
+          "deal_count": 6,
+          "funding_usd": 144500000.0
+        },
+        {
+          "date": "2026-04-15",
+          "deal_count": 5,
+          "funding_usd": 27650000.0
+        },
+        {
+          "date": "2026-04-18",
+          "deal_count": 1,
+          "funding_usd": 1700000.0
+        },
+        {
+          "date": "2026-04-19",
+          "deal_count": 1,
+          "funding_usd": 2000000000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 3
+        },
+        {
+          "round": "Seed",
+          "deal_count": 6
+        },
+        {
+          "round": "Pre-Series A",
+          "deal_count": 1
+        },
+        {
+          "round": "Series A",
+          "deal_count": 2
+        },
+        {
+          "round": "Series B",
+          "deal_count": 1
+        },
+        {
+          "round": "Series C",
+          "deal_count": 2
+        },
+        {
+          "round": "Series D+",
+          "deal_count": 1
+        },
+        {
+          "round": "Strategic",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 2
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 2243500000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 171925000.0
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 17000000.0
+        },
+        {
+          "name": "Health AI",
+          "value_funding_usd": 9050000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "63326aedbc5f4fb8da567f91d9dd9ee2bafe9e56401f395cc5ab01a7ed9893b6",
+          "startup_name": "DayOne",
+          "deal_count": 1,
+          "total_funding_usd": 2000000000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "794a14b0bc194b074686644a6fdbe716fc75a7e4c118a278befbab32668a5cf5",
+          "startup_name": "Wingify",
+          "deal_count": 1,
+          "total_funding_usd": 150000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "9709303b2a21bc505e2a16ed78e69360ca188f40c15e1747d331e016521a2ddb",
+          "startup_name": "Amity",
+          "deal_count": 1,
+          "total_funding_usd": 100000000.0,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "f6023000ace2dddf93a72fe865245ae400196dc0f16a81628684d623b9fdd7ad",
+          "startup_name": "EPG",
+          "deal_count": 1,
+          "total_funding_usd": 100000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "cbffb66aa867d36cd2dadef5bc1aadbd0f9438e7c159f5f24a500c77657f18c7",
+          "startup_name": "Nava",
+          "deal_count": 1,
+          "total_funding_usd": 22000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "221e62b9ec4fda44876d453d91871bb646a926fafd239d0b6015ee90ce882186",
+          "startup_name": "NeuBird AI",
+          "deal_count": 1,
+          "total_funding_usd": 19300000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "4cc40d4c1494ccc651b34a4eaf986c0847452e6c55df1275cfc6e118d0ee8d58",
+          "startup_name": "AlphaNet",
+          "deal_count": 1,
+          "total_funding_usd": 10000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "00f8e59c8a74d55bc05327f4d18bee0ba8ca72c948c9560f97c31ce4b5382a81",
+          "startup_name": "Octen",
+          "deal_count": 1,
+          "total_funding_usd": 10000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "1db924348566e7d2a37c49a1aceaaeabe72af59dcf33794109d647c73d36be14",
+          "startup_name": "Biobot Surgical",
+          "deal_count": 1,
+          "total_funding_usd": 7850000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "5cc8cd9887beca85a402054f0af7bd253ac106c6eb4994ea59a3f3b3aa3bced5",
+          "startup_name": "Atlas",
+          "deal_count": 1,
+          "total_funding_usd": 6000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "4633381e09e5ce585018188d8d4c2aef60e18fe97757b1c9d16643c573975e07",
+          "startup_name": "ARO Network",
+          "deal_count": 1,
+          "total_funding_usd": 5000000.0,
+          "latest_round": "Strategic",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "d54e3ee4630dbe3203b07058b296461c5a082289d8463be380a6a05b3b809215",
+          "startup_name": "AETHER INTELLIGENCE (subsidiary of DarkIris Inc.)",
+          "deal_count": 1,
+          "total_funding_usd": 3800000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "a2b9059546c426369791dfb454da3152e2df145b2bcc9ebc0206803e6943b41c",
+          "startup_name": "Rosella",
+          "deal_count": 1,
+          "total_funding_usd": 2500000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "ef3f8661a2eb993e2d48b9023dcf15201aff2e9ad2e6597cc68767a88d3f8a57",
+          "startup_name": "OrtCloud",
+          "deal_count": 1,
+          "total_funding_usd": 1700000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "abfe74d1875ed1a2b07e24161ce7eb83f6de6fded7aa8aa5f1f849d255e33110",
+          "startup_name": "OnSite",
+          "deal_count": 1,
+          "total_funding_usd": 1300000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "ce8b3a83c67066022c999d8564f2f6967bd19328618e6eb9c1a16faef6a1907b",
+          "startup_name": "injewelme",
+          "deal_count": 1,
+          "total_funding_usd": 1200000.0,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "8f4835da9b8817c50b89533ed3fa914ca0b5b7912da7c60c6007335ef7ff6f18",
+          "startup_name": "Muun AI",
+          "deal_count": 1,
+          "total_funding_usd": 700000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "23b7aea4a3f24760a6973c96dc00fd1803957f9c979e8f8d613f7546aeabb7e3",
+          "startup_name": "Plouton AI",
+          "deal_count": 1,
+          "total_funding_usd": 125000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "e4f77589f675d80cb81366745cd4c01605a49cc682bb1a1482ca069185177ee6",
+          "startup_name": "Libeara",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        }
+      ]
+    },
+    "South Korea": {
+      "country_meta": {
+        "country": "South Korea",
+        "iso2": "KR",
+        "iso3": "KOR",
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "kpis": {
+        "total_deals": 13,
+        "total_funding_usd": 3386942262.85,
+        "average_deal_usd": 338694226.28,
+        "active_startups": 13
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-07",
+          "deal_count": 7,
+          "funding_usd": 1763642262.85
+        },
+        {
+          "date": "2026-04-15",
+          "deal_count": 6,
+          "funding_usd": 1623300000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Seed",
+          "deal_count": 2
+        },
+        {
+          "round": "Pre-Series A",
+          "deal_count": 4
+        },
+        {
+          "round": "Series C",
+          "deal_count": 1
+        },
+        {
+          "round": "Growth/Late Stage",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 5
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 2171427447.85
+        },
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 798714815.0
+        },
+        {
+          "name": "Robotics",
+          "value_funding_usd": 408000000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 8800000.0
+        },
+        {
+          "name": "Cybersecurity AI",
+          "value_funding_usd": 0.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "783d4c1bfd6ac62bf56013116a58d47a546bc1b9b7c8fba279a5a79fbc638b2e",
+          "startup_name": "Wiz Medical",
+          "deal_count": 1,
+          "total_funding_usd": 1350027447.85,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "bb2b3d754f8bd65c0eadcc9ba4bd0843fb73ed3750edab0ec738942ab737ce22",
+          "startup_name": "Samsung SDS",
+          "deal_count": 1,
+          "total_funding_usd": 820000000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "ca1a0e67345b0e450d69a43f2ddb6da4d8773a032e4ae6b2c52e1229633f2949",
+          "startup_name": "DEEPX",
+          "deal_count": 1,
+          "total_funding_usd": 408000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "bbed158f6821d6b85e2c93cb6ac7b1e4e91816ca0068706c36f53f4f71982690",
+          "startup_name": "Rebellions",
+          "deal_count": 1,
+          "total_funding_usd": 400000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "69eca11fdc290c5e5324eb87d7c7dccfd86689b2b12723a644dff9bdc27a68f1",
+          "startup_name": "Naver Cloud (Gak Sejong AI Data Center)",
+          "deal_count": 1,
+          "total_funding_usd": 271600000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "9af933f3892a4c734ef941fdb4d70e5cbd59199c644549ec1b0f546a6df4c46e",
+          "startup_name": "Upstage",
+          "deal_count": 1,
+          "total_funding_usd": 122300000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "88963403da0915edb5ce4dd183b6a1b279c1aac914bb64ddf9d016310f463c34",
+          "startup_name": "V1C",
+          "deal_count": 1,
+          "total_funding_usd": 8800000.0,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "86e09cbefeb9cf25c845e13301bce349492d099bfffd3106b58da5e9f14379a5",
+          "startup_name": "Frefins",
+          "deal_count": 1,
+          "total_funding_usd": 3703704.0,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "04664f09a96acdc07dda73c9e0422c8133923ad6a300fe8031c925d59739765f",
+          "startup_name": "Mateo AI Studio",
+          "deal_count": 1,
+          "total_funding_usd": 1400000.0,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "67eec14eed547aaa06ae2e44a9198d28ee17b4c763ef40bb6f6f808f9a16a344",
+          "startup_name": "Rapeech",
+          "deal_count": 1,
+          "total_funding_usd": 1111111.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "0c0b1f5657edbb11174af56e7f90c0b53ef31798e0a3faa9a76244560e041e52",
+          "startup_name": "Provally",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-15"
+        },
+        {
+          "startup_id": "e52dd6cf0c10d7cdd5252c923c64283ccca782ab8a7fd35f084fd31d505ec58e",
+          "startup_name": "Soundable Health",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "3210a1ca98a0cb5a5cbf9c807b1b091abfaff4c3acf1085d87a0f8b92c9eef1a",
+          "startup_name": "EduSync",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-07"
+        }
+      ]
+    },
+    "Spain": {
+      "country_meta": {
+        "country": "Spain",
+        "iso2": "ES",
+        "iso3": "ESP",
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "kpis": {
+        "total_deals": 20,
+        "total_funding_usd": 181895300.0,
+        "average_deal_usd": 10699723.53,
+        "active_startups": 20
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-04",
+          "deal_count": 12,
+          "funding_usd": 40970000.0
+        },
+        {
+          "date": "2026-04-08",
+          "deal_count": 1,
+          "funding_usd": 130000000.0
+        },
+        {
+          "date": "2026-04-09",
+          "deal_count": 2,
+          "funding_usd": 2925000.0
+        },
+        {
+          "date": "2026-04-18",
+          "deal_count": 4,
+          "funding_usd": 5192300.0
+        },
+        {
+          "date": "2026-04-19",
+          "deal_count": 1,
+          "funding_usd": 2808000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 2
+        },
+        {
+          "round": "Seed",
+          "deal_count": 4
+        },
+        {
+          "round": "Pre-Series A",
+          "deal_count": 3
+        },
+        {
+          "round": "Series A",
+          "deal_count": 1
+        },
+        {
+          "round": "Series B",
+          "deal_count": 1
+        },
+        {
+          "round": "Growth/Late Stage",
+          "deal_count": 1
+        },
+        {
+          "round": "Debt",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 7
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 137777000.0
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 35073300.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 3661000.0
+        },
+        {
+          "name": "Cybersecurity AI",
+          "value_funding_usd": 3284000.0
+        },
+        {
+          "name": "Supply Chain",
+          "value_funding_usd": 2100000.0
+        },
+        {
+          "name": "Education AI",
+          "value_funding_usd": 0.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "60037a7c3d6307f161dd95695179343426d944b3000f5a0aed46bbbbc74ec64c",
+          "startup_name": "Xoople",
+          "deal_count": 1,
+          "total_funding_usd": 130000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-08"
+        },
+        {
+          "startup_id": "52be3a4c5a635a2fa1981cc7e0244332b6dd556b23a99e4d97c145801272baed",
+          "startup_name": "Axiomatic AI",
+          "deal_count": 1,
+          "total_funding_usd": 16200000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "bcaa9a517d28dc80940341d7a7f7672416d7a9caacb12620c577eed62d31e691",
+          "startup_name": "Pharmacelera",
+          "deal_count": 1,
+          "total_funding_usd": 6490000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "7dc5b78f3c403c9d9c71fed0afdd6cc348dd7adc59d8b5bd34494a7a4f06aa62",
+          "startup_name": "TaxDown",
+          "deal_count": 1,
+          "total_funding_usd": 4330000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "a009d7f2340c0b4be63f750cd6c8bd02f963f3001461c1e14beb67d345c54566",
+          "startup_name": "Brickken",
+          "deal_count": 1,
+          "total_funding_usd": 3240000.0,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "d038e04c3716000e832ce0f8451d8c0c281e57117af5d718ec957f4b53efffc2",
+          "startup_name": "Galtea",
+          "deal_count": 1,
+          "total_funding_usd": 3200000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "6fe2e6f7a098c83f07902f5b79f39ecd25dc34763e899f8a2efa38ca1fe9ae24",
+          "startup_name": "Modern Relay",
+          "deal_count": 1,
+          "total_funding_usd": 2808000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "0bfb4f069a95b40b5bd9a8049e7160e0d8416023921148ab7761b863fae86f4a",
+          "startup_name": "Health Lean Analytics",
+          "deal_count": 1,
+          "total_funding_usd": 2270000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "ae7ac28533d874c9f5bf6cd2d0ca81625271321d29ff252173496bc756d7ad71",
+          "startup_name": "Traza",
+          "deal_count": 1,
+          "total_funding_usd": 2100000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "3e6feb36f95a9faeade19b4b3cd5b4521145c3a8f7c3f08867ce73c5669559bc",
+          "startup_name": "Valeria",
+          "deal_count": 1,
+          "total_funding_usd": 2000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "cc0c13a8cb105ebba6ce6d9e69cce8a0c7e4a8ed50aefb51050dde369a5fc7e1",
+          "startup_name": "Apartool",
+          "deal_count": 1,
+          "total_funding_usd": 1944000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "62889ec00896ee6a582fcfc69b2dd5d0209d7454ebb076082ee80b07af79ffa3",
+          "startup_name": "Golden Owl",
+          "deal_count": 1,
+          "total_funding_usd": 1638000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "e4ec9db9c58f0dea77e2df47b66db1d7a97d66b27644545f6c0a2aa22d1a836c",
+          "startup_name": "GuruSup",
+          "deal_count": 1,
+          "total_funding_usd": 1391000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "0165c218b6a903fed41c24dd48f536821b6aea8e099d9fe66bd9c1a3d4851514",
+          "startup_name": "IONLY",
+          "deal_count": 1,
+          "total_funding_usd": 1296000.0,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "84d70a5460cb94034a1b3c8866496aefd2d27c091457092d9420d6feb389cc04",
+          "startup_name": "Sybol",
+          "deal_count": 1,
+          "total_funding_usd": 1287000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-09"
+        },
+        {
+          "startup_id": "3cb6c909f4f3e5daf58f33c7e4302336973e356b3664b535d4b847c73ef69383",
+          "startup_name": "Centinel",
+          "deal_count": 1,
+          "total_funding_usd": 1284000.0,
+          "latest_round": "Pre-Series A",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "44a9177207ca64236ae877e3de189f67f05e0fcd68be56c3abbe54c38b68b5f5",
+          "startup_name": "Movements",
+          "deal_count": 1,
+          "total_funding_usd": 417300.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "8293a8273d5a3442f8d72a9e9c1c803ae2ef3e183a1489b90f8d2ed0e6094781",
+          "startup_name": "OASSIST",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "0a3371c590ef161586e883259b973f6e5fca434181259fe8183cff06a32b1454",
+          "startup_name": "Mouedata.ai",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "a92386798f628fec3600b9759e9554cb755c2ea05d11276750d1608a0958f799",
+          "startup_name": "Elingua",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Debt",
+          "latest_announcement_date": "2026-04-04"
+        }
+      ]
+    },
+    "Switzerland": {
+      "country_meta": {
+        "country": "Switzerland",
+        "iso2": "CH",
+        "iso3": "CHE",
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "kpis": {
+        "total_deals": 10,
+        "total_funding_usd": 276720000.0,
+        "average_deal_usd": 34590000.0,
+        "active_startups": 10
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 3,
+          "funding_usd": 43100000.0
+        },
+        {
+          "date": "2026-04-07",
+          "deal_count": 4,
+          "funding_usd": 233532000.0
+        },
+        {
+          "date": "2026-04-18",
+          "deal_count": 1,
+          "funding_usd": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "deal_count": 2,
+          "funding_usd": 88000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Seed",
+          "deal_count": 8
+        },
+        {
+          "round": "Series A",
+          "deal_count": 1
+        },
+        {
+          "round": "Strategic",
+          "deal_count": 1
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 265044000.0
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 10532000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 1100000.0
+        },
+        {
+          "name": "Health AI",
+          "value_funding_usd": 44000.0
+        },
+        {
+          "name": "Cybersecurity AI",
+          "value_funding_usd": 0.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "d8c3efddab6be6fc32bfd44af2aed9ae137c07ac5effe2f7df52be0f3f68d76d",
+          "startup_name": "Kandou AI",
+          "deal_count": 1,
+          "total_funding_usd": 225000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "bc759d7687bcfe7285f49835da676fb604dc05455eb6f24418161bfee8dada02",
+          "startup_name": "PAVE Space",
+          "deal_count": 1,
+          "total_funding_usd": 40000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "6d0998ae6fb9ac0497b148eea465992e602145a50decda63c3485fa478067ad6",
+          "startup_name": "Delta Labs",
+          "deal_count": 1,
+          "total_funding_usd": 4752000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "d9fe53fa79f58ea8681d047c08cab2f3320f1ed7cfa55c4d5755d797f1325233",
+          "startup_name": "Covalo",
+          "deal_count": 1,
+          "total_funding_usd": 3780000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "7ec43427503e3f17e83df3088c558611b695239ef1a186610621150d6716e146",
+          "startup_name": "SolidWatts",
+          "deal_count": 1,
+          "total_funding_usd": 2000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "bde4ecb784df0b8a5e859ffed761e13bc16be820bbd7aade71c890685e16a99f",
+          "startup_name": "Plair SA",
+          "deal_count": 1,
+          "total_funding_usd": 1100000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "95e0db8818059c6af9a0f3397e8ceee308513fa82ff1febc4675112ccbd00ee7",
+          "startup_name": "Alpi",
+          "deal_count": 1,
+          "total_funding_usd": 44000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "4d206b82934ff999cf88ad657a7fd8f57a81da0e56c80432ff4841aa900ebfa8",
+          "startup_name": "ALP AI",
+          "deal_count": 1,
+          "total_funding_usd": 44000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-19"
+        },
+        {
+          "startup_id": "675061a6d1dca16074cf8ccfa43ec444c2de3d6d0c6db33552619ed676f2e9e6",
+          "startup_name": "AlpineAI",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "da19582ace8ada71dd6d81d59e93122011b39b90e7b6636a13871ffd7de828b1",
+          "startup_name": "Artificialy",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Strategic",
+          "latest_announcement_date": "2026-04-07"
+        }
+      ]
+    },
+    "Taiwan": {
+      "country_meta": {
+        "country": "Taiwan",
+        "iso2": "TW",
+        "iso3": "TWN",
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "kpis": {
+        "total_deals": 2,
+        "total_funding_usd": 10000000.0,
+        "average_deal_usd": 10000000.0,
+        "active_startups": 2
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-10",
+          "deal_count": 2,
+          "funding_usd": 10000000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Other",
+          "deal_count": 2
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 10000000.0
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 0.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "8e6903ac1bd162edb89a108c66a432c2fc16a8b5a24a74266f5fea0ddc61d973",
+          "startup_name": "OwlTing Group",
+          "deal_count": 1,
+          "total_funding_usd": 10000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-10"
+        },
+        {
+          "startup_id": "6ad5bc148ef8263f8cafe2e6b24037eb7a965cb3e96e4bed917e3ac667fd8c13",
+          "startup_name": "Libeara Pte. Ltd.",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-10"
+        }
+      ]
+    },
+    "UAE": {
+      "country_meta": {
+        "country": "UAE",
+        "iso2": "AE",
+        "iso3": "ARE",
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "kpis": {
+        "total_deals": 10,
+        "total_funding_usd": 124263700000.0,
+        "average_deal_usd": 13807077777.78,
+        "active_startups": 10
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-03",
+          "deal_count": 3,
+          "funding_usd": 122575000000.0
+        },
+        {
+          "date": "2026-04-18",
+          "deal_count": 4,
+          "funding_usd": 617700000.0
+        },
+        {
+          "date": "2026-04-22",
+          "deal_count": 2,
+          "funding_usd": 1063000000.0
+        },
+        {
+          "date": "2026-04-23",
+          "deal_count": 1,
+          "funding_usd": 8000000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 1
+        },
+        {
+          "round": "Seed",
+          "deal_count": 3
+        },
+        {
+          "round": "Series A",
+          "deal_count": 1
+        },
+        {
+          "round": "Series D+",
+          "deal_count": 2
+        },
+        {
+          "round": "Venture/Other",
+          "deal_count": 1
+        },
+        {
+          "round": "Other",
+          "deal_count": 2
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 123646000000.0
+        },
+        {
+          "name": "Fintech AI",
+          "value_funding_usd": 586000000.0
+        },
+        {
+          "name": "Health AI",
+          "value_funding_usd": 21700000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 10000000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "54d117ef3ba9fe01534b4da8baec758185c1acd504a7e35ce641aa8fe4d4091e",
+          "startup_name": "OpenAI",
+          "deal_count": 1,
+          "total_funding_usd": 122000000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "7da68b4437d5eb22c7eb38dfad0c020c763d3689833a90e8a3293d78ccca1b5a",
+          "startup_name": "VAST Data",
+          "deal_count": 1,
+          "total_funding_usd": 1000000000.0,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-22"
+        },
+        {
+          "startup_id": "3a6b989e6a4fb3bda7eeeec3a76953c0bb313684a59eedf735dff61888bc985a",
+          "startup_name": "La Trobe",
+          "deal_count": 1,
+          "total_funding_usd": 585000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "1425277fe764e94c22e63f5548dc5a3f84d38e2d05929d6f069a5bb5af730daa",
+          "startup_name": "WHOOP",
+          "deal_count": 1,
+          "total_funding_usd": 575000000.0,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "8be961a07fb22e197f8ed1b23b80658d0df35a1f607dc8126b8e6c0619028302",
+          "startup_name": "Startale Group",
+          "deal_count": 1,
+          "total_funding_usd": 63000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-22"
+        },
+        {
+          "startup_id": "0c8a9afe71e1cbb347e3e200d462c08982d5705ef251a9f2a865e240f0936e3a",
+          "startup_name": "ROKIT MENA",
+          "deal_count": 1,
+          "total_funding_usd": 21700000.0,
+          "latest_round": "Venture/Other",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "ba26cdf59c235e26341344ac5ba9083adb52692022f0af1d242ba97a2276865c",
+          "startup_name": "ActionAI",
+          "deal_count": 1,
+          "total_funding_usd": 10000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "ef7c6c3f2722db825ddc4b47a20644c989d02cf03f10520cfdf4997a61e61e15",
+          "startup_name": "KAIO",
+          "deal_count": 1,
+          "total_funding_usd": 8000000.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-23"
+        },
+        {
+          "startup_id": "c60afd044d1a835d24c88c3902917f7228f9e047931e0dcb546c1a234c8f502c",
+          "startup_name": "QFIL Solutions",
+          "deal_count": 1,
+          "total_funding_usd": 1000000.0,
+          "latest_round": "Pre-Seed",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "aa842f3ba205f767d597b5ccec7386ed52360b3fa2dc7f205b6071b12c4aaae7",
+          "startup_name": "NodeShift",
+          "deal_count": 1,
+          "total_funding_usd": 0.0,
+          "latest_round": "Seed",
+          "latest_announcement_date": "2026-04-03"
+        }
+      ]
+    },
+    "USA": {
+      "country_meta": {
+        "country": "USA",
+        "iso2": "US",
+        "iso3": "USA",
+        "region": "Americas",
+        "subregion": "Northern America"
+      },
+      "kpis": {
+        "total_deals": 108,
+        "total_funding_usd": 180636650000.0,
+        "average_deal_usd": 1720349047.62,
+        "active_startups": 108
+      },
+      "funding_trend": [
+        {
+          "date": "2026-04-01",
+          "deal_count": 10,
+          "funding_usd": 122444900000.0
+        },
+        {
+          "date": "2026-04-02",
+          "deal_count": 24,
+          "funding_usd": 2001500000.0
+        },
+        {
+          "date": "2026-04-03",
+          "deal_count": 15,
+          "funding_usd": 2891500000.0
+        },
+        {
+          "date": "2026-04-04",
+          "deal_count": 15,
+          "funding_usd": 8364050000.0
+        },
+        {
+          "date": "2026-04-07",
+          "deal_count": 19,
+          "funding_usd": 43986600000.0
+        },
+        {
+          "date": "2026-04-09",
+          "deal_count": 8,
+          "funding_usd": 139500000.0
+        },
+        {
+          "date": "2026-04-10",
+          "deal_count": 1,
+          "funding_usd": 125000000.0
+        },
+        {
+          "date": "2026-04-15",
+          "deal_count": 7,
+          "funding_usd": 113600000.0
+        },
+        {
+          "date": "2026-04-17",
+          "deal_count": 4,
+          "funding_usd": 54800000.0
+        },
+        {
+          "date": "2026-04-18",
+          "deal_count": 1,
+          "funding_usd": 400000000.0
+        },
+        {
+          "date": "2026-04-19",
+          "deal_count": 4,
+          "funding_usd": 115200000.0
+        }
+      ],
+      "round_stage_mix": [
+        {
+          "round": "Pre-Seed",
+          "deal_count": 6
+        },
+        {
+          "round": "Seed",
+          "deal_count": 28
+        },
+        {
+          "round": "Pre-Series A",
+          "deal_count": 3
+        },
+        {
+          "round": "Series A",
+          "deal_count": 29
+        },
+        {
+          "round": "Series B",
+          "deal_count": 14
+        },
+        {
+          "round": "Series C",
+          "deal_count": 3
+        },
+        {
+          "round": "Series D+",
+          "deal_count": 5
+        },
+        {
+          "round": "Growth/Late Stage",
+          "deal_count": 4
+        },
+        {
+          "round": "Strategic",
+          "deal_count": 1
+        },
+        {
+          "round": "Venture/Other",
+          "deal_count": 2
+        },
+        {
+          "round": "Other",
+          "deal_count": 13
+        }
+      ],
+      "ai_sector_treemap": [
+        {
+          "name": "AI Infrastructure",
+          "value_funding_usd": 129554700000.0
+        },
+        {
+          "name": "Other AI/Data",
+          "value_funding_usd": 37808900000.0
+        },
+        {
+          "name": "Enterprise SaaS",
+          "value_funding_usd": 7217000000.0
+        },
+        {
+          "name": "Robotics",
+          "value_funding_usd": 3873800000.0
+        },
+        {
+          "name": "Cybersecurity AI",
+          "value_funding_usd": 873500000.0
+        },
+        {
+          "name": "Supply Chain",
+          "value_funding_usd": 500000000.0
+        },
+        {
+          "name": "Education AI",
+          "value_funding_usd": 400000000.0
+        },
+        {
+          "name": "Developer Tooling",
+          "value_funding_usd": 125000000.0
+        },
+        {
+          "name": "Health AI",
+          "value_funding_usd": 118000000.0
+        },
+        {
+          "name": "Climate & Energy",
+          "value_funding_usd": 66000000.0
+        },
+        {
+          "name": "Fintech AI",
+          "value_funding_usd": 52250000.0
+        },
+        {
+          "name": "Retail & Commerce",
+          "value_funding_usd": 47500000.0
+        }
+      ],
+      "top_startups": [
+        {
+          "startup_id": "67590ab2cb6594f4f2ab1699124caaf1ad9a6059995a72da34d412930f6d4a8c",
+          "startup_name": "OpenAI",
+          "deal_count": 1,
+          "total_funding_usd": 122000000000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "efbf7ca7bb03c9879d1bb81eb6be75ecd774bd8ddf7f0beb23bf85790eacdc0e",
+          "startup_name": "xAI",
+          "deal_count": 1,
+          "total_funding_usd": 20000000000.0,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "c4371e6beab8d37549f882d5dc6c2dec90f08a5204ca23033aa38aacddc0c97c",
+          "startup_name": "Waymo",
+          "deal_count": 1,
+          "total_funding_usd": 16000000000.0,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "e53dd946a4e29f1a43689f110dc46fbb4562beff5200e37eebf8e999e860fdee",
+          "startup_name": "Databricks",
+          "deal_count": 1,
+          "total_funding_usd": 7000000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "7ea40ec2c887320259895a5ad160cb616e81d61e2fc92d1c16d89890454538f1",
+          "startup_name": "Anthropic",
+          "deal_count": 1,
+          "total_funding_usd": 5000000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "1dd58d231fa0245eae63af390ddcb7cfdaf60110f32038e440a35990aadf9772",
+          "startup_name": "Shield AI",
+          "deal_count": 1,
+          "total_funding_usd": 2000000000.0,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "501e6141fa294667084b2cf88622245d0dd832297d60e6d8d57e442b6f2ff4c5",
+          "startup_name": "Saronic",
+          "deal_count": 1,
+          "total_funding_usd": 1750000000.0,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "a0ceb2686c2d0e845904d2f729fcd75d3fb635869a0950399eca8a7f085983a1",
+          "startup_name": "Physical Intelligence",
+          "deal_count": 1,
+          "total_funding_usd": 1000000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "7f59982a0f38fa185e653decb67635303cb110563ac5dd77f5f6424c4de03e23",
+          "startup_name": "Whoop",
+          "deal_count": 1,
+          "total_funding_usd": 575000000.0,
+          "latest_round": "Series D+",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "0cbb2a40fbcbed0c33e3ddeb98d0ce7536a719f2ad9cf8c691de1183e7295a9e",
+          "startup_name": "Nexthop AI",
+          "deal_count": 1,
+          "total_funding_usd": 500000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "b0e2fd93a27e7b5cbb2df9bae6bbfce929c67a34c0a560324d92774620a62a82",
+          "startup_name": "SiFive",
+          "deal_count": 1,
+          "total_funding_usd": 400000000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-18"
+        },
+        {
+          "startup_id": "7a56f710467c2daa9a6ccb4ae7c99dc8f47b34a45e4314df8aa94dfcdd199130",
+          "startup_name": "Cambridge Mobile Telematics",
+          "deal_count": 1,
+          "total_funding_usd": 350000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "77cbacadc96a461612a6c1fdcfc67cb29119c13888aae15a0a8a11edecf2df0e",
+          "startup_name": "Tenex.AI",
+          "deal_count": 1,
+          "total_funding_usd": 250000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "46a80db5991ae35d23384cb0d7d81dde7ac718447e534b42e027cac888da4dfd",
+          "startup_name": "TENEX AI",
+          "deal_count": 1,
+          "total_funding_usd": 250000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "f5dff3e4fa0d8bec9558c7bf037514e4e4d40efcde8e517c9d08acbd4b508fc7",
+          "startup_name": "Tenex",
+          "deal_count": 1,
+          "total_funding_usd": 250000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-01"
+        },
+        {
+          "startup_id": "d3849e3950f40c20deabb4d4eee3d09af4c5b987de802e726cfd29c5cb324841",
+          "startup_name": "Harvey",
+          "deal_count": 1,
+          "total_funding_usd": 200000000.0,
+          "latest_round": "Other",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "630895e0b6131a459aeb9a4c3cd141bccf769cc6d3fe4b8d73ef492362005486",
+          "startup_name": "Starcloud",
+          "deal_count": 1,
+          "total_funding_usd": 170000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "bb43e40d6d83d47f1753f2dd1242dd93fa4a4f4239cbe7be3b03bcf7bc51417f",
+          "startup_name": "ScaleOps",
+          "deal_count": 1,
+          "total_funding_usd": 130000000.0,
+          "latest_round": "Series C",
+          "latest_announcement_date": "2026-04-04"
+        },
+        {
+          "startup_id": "7c53acc8432e1dc5347d520824b2d9f9ea4af5f1ba72fb52ac7acb7d42d09871",
+          "startup_name": "Aria Networks",
+          "deal_count": 1,
+          "total_funding_usd": 125000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-10"
+        },
+        {
+          "startup_id": "aea84d33428a58d623c7a220afb1c36dd9fd2202a757145a9dc700888c5fcc94",
+          "startup_name": "Resolve AI",
+          "deal_count": 1,
+          "total_funding_usd": 125000000.0,
+          "latest_round": "Series A",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "30b436647ca7badf13e730b5b984c9cab369ad2acce5676ed1c4d59408b01bc2",
+          "startup_name": "Qualified Health",
+          "deal_count": 1,
+          "total_funding_usd": 125000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "c9957ce422706be1249f163f67b5e2f9ef4ea1755e0c01bbb736650d52c7ab95",
+          "startup_name": "OpenRouter",
+          "deal_count": 1,
+          "total_funding_usd": 120000000.0,
+          "latest_round": "Growth/Late Stage",
+          "latest_announcement_date": "2026-04-02"
+        },
+        {
+          "startup_id": "f31036043f7234db53a0272f4f1b895cc14ef06e9036926d49817ec794463b83",
+          "startup_name": "DashO",
+          "deal_count": 1,
+          "total_funding_usd": 110000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-07"
+        },
+        {
+          "startup_id": "057fc87f788c7f600b17729815995c4c34bcb1ccc35f9e6fc89bd4195fb0ea67",
+          "startup_name": "Performance Drone Works",
+          "deal_count": 1,
+          "total_funding_usd": 110000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-03"
+        },
+        {
+          "startup_id": "718bd24693792d3c04fec6e1b0bcbf58c092e1410d060b22ab0b56139dac0f8b",
+          "startup_name": "Dash0",
+          "deal_count": 1,
+          "total_funding_usd": 110000000.0,
+          "latest_round": "Series B",
+          "latest_announcement_date": "2026-04-02"
+        }
+      ]
+    }
+  }
+}

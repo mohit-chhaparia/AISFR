@@ -1,0 +1,512 @@
+{
+  "generated_at": "2026-04-24T23:06:27+00:00",
+  "window_start": "2025-04-25",
+  "window_end": "2026-04-24",
+  "kpis": {
+    "total_deals": 560,
+    "total_funding_usd": 358918938237.51,
+    "average_deal_usd": 716405066.34,
+    "active_countries": 25
+  },
+  "daily_trend": [
+    {
+      "date": "2026-04-01",
+      "deal_count": 40,
+      "funding_usd": 122988625000.0
+    },
+    {
+      "date": "2026-04-02",
+      "deal_count": 35,
+      "funding_usd": 3843640000.0
+    },
+    {
+      "date": "2026-04-03",
+      "deal_count": 77,
+      "funding_usd": 138835236025.37
+    },
+    {
+      "date": "2026-04-04",
+      "deal_count": 64,
+      "funding_usd": 22249098994.74
+    },
+    {
+      "date": "2026-04-05",
+      "deal_count": 19,
+      "funding_usd": 1033796500.0
+    },
+    {
+      "date": "2026-04-06",
+      "deal_count": 36,
+      "funding_usd": 2985318400.0
+    },
+    {
+      "date": "2026-04-07",
+      "deal_count": 49,
+      "funding_usd": 46455806262.85
+    },
+    {
+      "date": "2026-04-08",
+      "deal_count": 1,
+      "funding_usd": 130000000.0
+    },
+    {
+      "date": "2026-04-09",
+      "deal_count": 27,
+      "funding_usd": 367964317.05
+    },
+    {
+      "date": "2026-04-10",
+      "deal_count": 7,
+      "funding_usd": 699000000.0
+    },
+    {
+      "date": "2026-04-11",
+      "deal_count": 21,
+      "funding_usd": 131985777.93
+    },
+    {
+      "date": "2026-04-15",
+      "deal_count": 59,
+      "funding_usd": 6931675774.0
+    },
+    {
+      "date": "2026-04-16",
+      "deal_count": 2,
+      "funding_usd": 2403000.0
+    },
+    {
+      "date": "2026-04-17",
+      "deal_count": 31,
+      "funding_usd": 2300363181.86
+    },
+    {
+      "date": "2026-04-18",
+      "deal_count": 29,
+      "funding_usd": 1149950300.0
+    },
+    {
+      "date": "2026-04-19",
+      "deal_count": 28,
+      "funding_usd": 7188661680.57
+    },
+    {
+      "date": "2026-04-21",
+      "deal_count": 4,
+      "funding_usd": 174328235.87
+    },
+    {
+      "date": "2026-04-22",
+      "deal_count": 9,
+      "funding_usd": 1129190889.19
+    },
+    {
+      "date": "2026-04-23",
+      "deal_count": 21,
+      "funding_usd": 315893898.08
+    },
+    {
+      "date": "2026-04-24",
+      "deal_count": 1,
+      "funding_usd": 6000000.0
+    }
+  ],
+  "country_leaderboard": [
+    {
+      "country": "USA",
+      "iso3": "USA",
+      "region": "Americas",
+      "deal_count": 108,
+      "funding_usd": 180636650000.0,
+      "avg_deal_usd": 1672561574.07
+    },
+    {
+      "country": "UAE",
+      "iso3": "ARE",
+      "region": "Asia",
+      "deal_count": 10,
+      "funding_usd": 124263700000.0,
+      "avg_deal_usd": 12426370000.0
+    },
+    {
+      "country": "Finland",
+      "iso3": "FIN",
+      "region": "Europe",
+      "deal_count": 11,
+      "funding_usd": 20141576000.0,
+      "avg_deal_usd": 1831052363.64
+    },
+    {
+      "country": "Japan",
+      "iso3": "JPN",
+      "region": "Asia",
+      "deal_count": 10,
+      "funding_usd": 8084237645.0,
+      "avg_deal_usd": 808423764.5
+    },
+    {
+      "country": "China",
+      "iso3": "CHN",
+      "region": "Asia",
+      "deal_count": 35,
+      "funding_usd": 4829900000.0,
+      "avg_deal_usd": 137997142.86
+    },
+    {
+      "country": "Israel",
+      "iso3": "ISR",
+      "region": "Asia",
+      "deal_count": 42,
+      "funding_usd": 3435000000.0,
+      "avg_deal_usd": 81785714.29
+    },
+    {
+      "country": "South Korea",
+      "iso3": "KOR",
+      "region": "Asia",
+      "deal_count": 13,
+      "funding_usd": 3386942262.85,
+      "avg_deal_usd": 260534020.22
+    },
+    {
+      "country": "Britain",
+      "iso3": "GBR",
+      "region": "Europe",
+      "deal_count": 62,
+      "funding_usd": 2958834132.73,
+      "avg_deal_usd": 47723131.17
+    },
+    {
+      "country": "India",
+      "iso3": "IND",
+      "region": "Asia",
+      "deal_count": 76,
+      "funding_usd": 2579172328.91,
+      "avg_deal_usd": 33936478.01
+    },
+    {
+      "country": "Singapore",
+      "iso3": "SGP",
+      "region": "Asia",
+      "deal_count": 19,
+      "funding_usd": 2441475000.0,
+      "avg_deal_usd": 128498684.21
+    },
+    {
+      "country": "Dubai",
+      "iso3": "ARE",
+      "region": "Asia",
+      "deal_count": 7,
+      "funding_usd": 1615500000.0,
+      "avg_deal_usd": 230785714.29
+    },
+    {
+      "country": "Canada",
+      "iso3": "CAN",
+      "region": "Americas",
+      "deal_count": 48,
+      "funding_usd": 1285743130.0,
+      "avg_deal_usd": 26786315.21
+    },
+    {
+      "country": "France",
+      "iso3": "FRA",
+      "region": "Europe",
+      "deal_count": 14,
+      "funding_usd": 1070917869.91,
+      "avg_deal_usd": 76494133.57
+    },
+    {
+      "country": "Australia",
+      "iso3": "AUS",
+      "region": "Oceania",
+      "deal_count": 12,
+      "funding_usd": 801681847.5,
+      "avg_deal_usd": 66806820.63
+    },
+    {
+      "country": "Netherlands",
+      "iso3": "NLD",
+      "region": "Europe",
+      "deal_count": 13,
+      "funding_usd": 361796800.0,
+      "avg_deal_usd": 27830523.08
+    },
+    {
+      "country": "Switzerland",
+      "iso3": "CHE",
+      "region": "Europe",
+      "deal_count": 10,
+      "funding_usd": 276720000.0,
+      "avg_deal_usd": 27672000.0
+    },
+    {
+      "country": "Germany",
+      "iso3": "DEU",
+      "region": "Europe",
+      "deal_count": 13,
+      "funding_usd": 253506000.0,
+      "avg_deal_usd": 19500461.54
+    },
+    {
+      "country": "Spain",
+      "iso3": "ESP",
+      "region": "Europe",
+      "deal_count": 20,
+      "funding_usd": 181895300.0,
+      "avg_deal_usd": 9094765.0
+    },
+    {
+      "country": "Ireland",
+      "iso3": "IRL",
+      "region": "Europe",
+      "deal_count": 10,
+      "funding_usd": 100558474.38,
+      "avg_deal_usd": 10055847.44
+    },
+    {
+      "country": "Brazil",
+      "iso3": "BRA",
+      "region": "Americas",
+      "deal_count": 11,
+      "funding_usd": 100000000.0,
+      "avg_deal_usd": 9090909.09
+    },
+    {
+      "country": "Portugal",
+      "iso3": "PRT",
+      "region": "Europe",
+      "deal_count": 3,
+      "funding_usd": 41338286.99,
+      "avg_deal_usd": 13779429.0
+    },
+    {
+      "country": "Denmark",
+      "iso3": "DNK",
+      "region": "Europe",
+      "deal_count": 6,
+      "funding_usd": 34818715.25,
+      "avg_deal_usd": 5803119.21
+    },
+    {
+      "country": "Luxembourg",
+      "iso3": "LUX",
+      "region": "Europe",
+      "deal_count": 4,
+      "funding_usd": 26530000.0,
+      "avg_deal_usd": 6632500.0
+    },
+    {
+      "country": "Taiwan",
+      "iso3": "TWN",
+      "region": "Asia",
+      "deal_count": 2,
+      "funding_usd": 10000000.0,
+      "avg_deal_usd": 5000000.0
+    },
+    {
+      "country": "Russia",
+      "iso3": "RUS",
+      "region": "Europe",
+      "deal_count": 1,
+      "funding_usd": 444444.0,
+      "avg_deal_usd": 444444.0
+    }
+  ],
+  "world_map": [
+    {
+      "iso3": "USA",
+      "country": "USA",
+      "deal_count": 108,
+      "funding_usd": 180636650000.0,
+      "region": "Americas"
+    },
+    {
+      "iso3": "ARE",
+      "country": "UAE",
+      "deal_count": 10,
+      "funding_usd": 124263700000.0,
+      "region": "Asia"
+    },
+    {
+      "iso3": "FIN",
+      "country": "Finland",
+      "deal_count": 11,
+      "funding_usd": 20141576000.0,
+      "region": "Europe"
+    },
+    {
+      "iso3": "JPN",
+      "country": "Japan",
+      "deal_count": 10,
+      "funding_usd": 8084237645.0,
+      "region": "Asia"
+    },
+    {
+      "iso3": "CHN",
+      "country": "China",
+      "deal_count": 35,
+      "funding_usd": 4829900000.0,
+      "region": "Asia"
+    },
+    {
+      "iso3": "ISR",
+      "country": "Israel",
+      "deal_count": 42,
+      "funding_usd": 3435000000.0,
+      "region": "Asia"
+    },
+    {
+      "iso3": "KOR",
+      "country": "South Korea",
+      "deal_count": 13,
+      "funding_usd": 3386942262.85,
+      "region": "Asia"
+    },
+    {
+      "iso3": "GBR",
+      "country": "Britain",
+      "deal_count": 62,
+      "funding_usd": 2958834132.73,
+      "region": "Europe"
+    },
+    {
+      "iso3": "IND",
+      "country": "India",
+      "deal_count": 76,
+      "funding_usd": 2579172328.91,
+      "region": "Asia"
+    },
+    {
+      "iso3": "SGP",
+      "country": "Singapore",
+      "deal_count": 19,
+      "funding_usd": 2441475000.0,
+      "region": "Asia"
+    },
+    {
+      "iso3": "ARE",
+      "country": "Dubai",
+      "deal_count": 7,
+      "funding_usd": 1615500000.0,
+      "region": "Asia"
+    },
+    {
+      "iso3": "CAN",
+      "country": "Canada",
+      "deal_count": 48,
+      "funding_usd": 1285743130.0,
+      "region": "Americas"
+    },
+    {
+      "iso3": "FRA",
+      "country": "France",
+      "deal_count": 14,
+      "funding_usd": 1070917869.91,
+      "region": "Europe"
+    },
+    {
+      "iso3": "AUS",
+      "country": "Australia",
+      "deal_count": 12,
+      "funding_usd": 801681847.5,
+      "region": "Oceania"
+    },
+    {
+      "iso3": "NLD",
+      "country": "Netherlands",
+      "deal_count": 13,
+      "funding_usd": 361796800.0,
+      "region": "Europe"
+    },
+    {
+      "iso3": "CHE",
+      "country": "Switzerland",
+      "deal_count": 10,
+      "funding_usd": 276720000.0,
+      "region": "Europe"
+    },
+    {
+      "iso3": "DEU",
+      "country": "Germany",
+      "deal_count": 13,
+      "funding_usd": 253506000.0,
+      "region": "Europe"
+    },
+    {
+      "iso3": "ESP",
+      "country": "Spain",
+      "deal_count": 20,
+      "funding_usd": 181895300.0,
+      "region": "Europe"
+    },
+    {
+      "iso3": "IRL",
+      "country": "Ireland",
+      "deal_count": 10,
+      "funding_usd": 100558474.38,
+      "region": "Europe"
+    },
+    {
+      "iso3": "BRA",
+      "country": "Brazil",
+      "deal_count": 11,
+      "funding_usd": 100000000.0,
+      "region": "Americas"
+    },
+    {
+      "iso3": "PRT",
+      "country": "Portugal",
+      "deal_count": 3,
+      "funding_usd": 41338286.99,
+      "region": "Europe"
+    },
+    {
+      "iso3": "DNK",
+      "country": "Denmark",
+      "deal_count": 6,
+      "funding_usd": 34818715.25,
+      "region": "Europe"
+    },
+    {
+      "iso3": "LUX",
+      "country": "Luxembourg",
+      "deal_count": 4,
+      "funding_usd": 26530000.0,
+      "region": "Europe"
+    },
+    {
+      "iso3": "TWN",
+      "country": "Taiwan",
+      "deal_count": 2,
+      "funding_usd": 10000000.0,
+      "region": "Asia"
+    },
+    {
+      "iso3": "RUS",
+      "country": "Russia",
+      "deal_count": 1,
+      "funding_usd": 444444.0,
+      "region": "Europe"
+    }
+  ],
+  "alerts": [
+    {
+      "severity": "medium",
+      "type": "large_round",
+      "entity": "OpenAI",
+      "message": "Large round detected (>= $250M).",
+      "metric_value": 122000000000.0,
+      "baseline": 250000000,
+      "detected_at": "2026-04-24T23:06:27+00:00"
+    },
+    {
+      "severity": "low",
+      "type": "country_stale",
+      "entity": "Dubai, Germany, Russia, South Korea, Taiwan",
+      "message": "One or more countries have no deal updates in the last 7 days.",
+      "metric_value": 5,
+      "baseline": 0,
+      "detected_at": "2026-04-24T23:06:27+00:00"
+    }
+  ]
+}
