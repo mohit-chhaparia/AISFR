@@ -1,4 +1,4 @@
-name: Global Daily Radar - For Nation List 3
+name: Global Daily Radar - For Nation List 4
 
 on:
   workflow_call:
@@ -8,7 +8,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: radar-tier3-${{ github.ref }}
+  group: radar-tier4-${{ github.ref }}
   cancel-in-progress: false
 
 env:
@@ -27,7 +27,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          NATIONS=$(jq -c '.["Tier 3"] | [.[].id]' nation_config.json)
+          NATIONS=$(jq -c '.["Tier 4"] | [.[].id]' nation_config.json)
           echo "matrix=$NATIONS" >> "$GITHUB_OUTPUT"
 
   github-probe:
@@ -76,7 +76,7 @@ jobs:
       - name: Run Automation
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python automation.py --nation "${{ matrix.nation }}" --list "Tier 3" --model "gemini-2.5-flash" --attempts 1
+        run: python automation.py --nation "${{ matrix.nation }}" --list "Tier 4" --model "gemini-2.5-flash" --attempts 1
 
       - name: Save Records
         shell: bash
@@ -146,7 +146,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           set -euo pipefail
-          nice -n 10 python3.11 automation.py --nation "${{ matrix.nation }}" --list "Tier 3" --model "gemini-2.5-flash" --attempts 1
+          nice -n 10 python3.11 automation.py --nation "${{ matrix.nation }}" --list "Tier 4" --model "gemini-2.5-flash" --attempts 1
 
       - name: Save Records
         shell: bash
