@@ -19,7 +19,6 @@ from analytics_common import (
     clean_string,
     has_meaningful_value,
     infer_sectors,
-    load_currency_rates_from_file,
     load_json,
     load_nation_reference,
     normalize_hiring,
@@ -29,6 +28,7 @@ from analytics_common import (
     parse_date,
     parse_datetime,
     resolve_nation_name,
+    refresh_currency_rates,
     split_multi_value_field,
     stable_hash,
     write_json,
@@ -237,7 +237,10 @@ def build_enriched_dataset(
     fx_rates_path: Path | None,
 ) -> dict[str, Any]:
     nation_reference, alias_map = load_nation_reference(nation_reference_path)
-    currency_to_usd_rate = load_currency_rates_from_file(fx_rates_path)
+    fx_registry = refresh_currency_rates(fx_rates_path)
+    currency_to_usd_rate = fx_registry.get("currency_to_usd_rate", {})
+    if not isinstance(currency_to_usd_rate, dict):
+        currency_to_usd_rate = {}
 
     data_files = detect_data_files(data_dir)
     records: list[dict[str, Any]] = []
@@ -288,7 +291,17 @@ def build_enriched_dataset(
         "source_file_count": len(data_files),
         "duplicates_skipped": duplicates_skipped,
         "nation_counts": dict(sorted(nation_counts.items())),
-        "currency_rates_source": str(fx_rates_path) if fx_rates_path else "fallback-only",
+        "currency_rates_source": str(fx_rates_path) if fx_rates_path else "in-memory-only",
+        "currency_rates_meta": {
+            "provider": clean_string(fx_registry.get("provider")),
+            "fetched_live": bool(fx_registry.get("fetched_live")),
+            "is_complete_update": bool(fx_registry.get("is_complete_update")),
+            "updated_at": clean_string(fx_registry.get("updated_at")),
+            "source_updated_at": clean_string(fx_registry.get("source_updated_at")),
+            "missing_live_currencies": fx_registry.get("missing_live_currencies")
+            if isinstance(fx_registry.get("missing_live_currencies"), list)
+            else [],
+        },
         "records": records,
     }
 
@@ -303,7 +316,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--output-dir", default="analytics", help="Output directory for analytics datasets.")
     parser.add_argument(
         "--nation-reference",
-        default="private_repo_upgrade/nation_reference.json",
+        default="nation_reference.json",
         help="Nation reference JSON with ISO and region metadata.",
     )
     parser.add_argument(
@@ -320,7 +333,6 @@ def main() -> None:
     output_dir = Path(args.output_dir).resolve()
     nation_reference_path = Path(args.nation_reference).resolve()
     fx_path = Path(args.fx_rates).resolve()
-    fx_rates_path = fx_path if fx_path.exists() else None
 
     if not data_dir.exists():
         raise FileNotFoundError(f"Data directory does not exist: {data_dir}")
@@ -329,7 +341,7 @@ def main() -> None:
         data_dir=data_dir,
         output_dir=output_dir,
         nation_reference_path=nation_reference_path,
-        fx_rates_path=fx_rates_path,
+        fx_rates_path=fx_path,
     )
     print(
         f"Enriched dataset generated: {payload['record_count']} records "

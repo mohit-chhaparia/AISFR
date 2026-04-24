@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import urllib.request
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -65,6 +66,7 @@ FALLBACK_CURRENCY_TO_USD_RATE = {
     "TWD": 0.031,
     "ZAR": 0.053,
 }
+FX_API_URL = "https://open.er-api.com/v6/latest/USD"
 
 USD_PREFIX_PATTERN = re.compile(
     r"(?:US\$|USD|\$)\s*\d[\d,]*(?:\.\d+)?(?:\s*(?:trillion|tn|billion|bn|million|mn|thousand|k|[tmb]))?",
@@ -447,4 +449,98 @@ def load_currency_rates_from_file(path: Path | None) -> dict[str, float]:
             if isinstance(rate, (int, float)):
                 rates[currency] = float(rate)
     return rates
+
+
+def load_existing_fx_registry(path: Path | None) -> dict[str, Any]:
+    if path is None or not path.exists():
+        return {}
+    payload = load_json(path)
+    return payload if isinstance(payload, dict) else {}
+
+
+def fetch_live_fx_payload(timeout_seconds: int = 30) -> dict[str, Any]:
+    with urllib.request.urlopen(FX_API_URL, timeout=timeout_seconds) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def build_fx_rate_registry(path: Path | None) -> dict[str, Any]:
+    existing_registry = load_existing_fx_registry(path)
+    previous_rates = existing_registry.get("currency_to_usd_rate", {})
+    if not isinstance(previous_rates, dict):
+        previous_rates = {}
+
+    generated_at = now_utc_iso()
+
+    try:
+        payload = fetch_live_fx_payload()
+        if payload.get("result") != "success":
+            raise ValueError(f"Unexpected FX API status: {payload.get('result')}")
+        provider = clean_string(payload.get("provider")) or FX_API_URL
+        fetched_at = clean_string(payload.get("time_last_update_utc")) or generated_at
+        source_rates = payload.get("rates") or {}
+        fetched_live = True
+    except Exception as error:  # pragma: no cover - fallback path is intentional
+        provider = f"{FX_API_URL} (fallback)"
+        fetched_at = generated_at
+        source_rates = {}
+        fetched_live = False
+        print(f"Warning: failed to fetch live FX rates, using fallback values. {error}")
+
+    currency_rates: dict[str, float] = {}
+    currency_sources: dict[str, str] = {}
+    for currency, fallback_rate in FALLBACK_CURRENCY_TO_USD_RATE.items():
+        if currency in {"USD", "USDC"}:
+            currency_rates[currency] = 1.0
+            currency_sources[currency] = "fixed"
+            continue
+
+        per_usd = source_rates.get(currency)
+        if isinstance(per_usd, (int, float)) and per_usd:
+            currency_rates[currency] = 1 / float(per_usd)
+            currency_sources[currency] = "live"
+        elif isinstance(previous_rates.get(currency), (int, float)) and previous_rates.get(currency):
+            currency_rates[currency] = float(previous_rates[currency])
+            currency_sources[currency] = "previous"
+        else:
+            currency_rates[currency] = float(fallback_rate)
+            currency_sources[currency] = "fallback"
+
+    currency_rates["USD"] = 1.0
+    currency_rates["USDC"] = 1.0
+    currency_sources["USD"] = "fixed"
+    currency_sources["USDC"] = "fixed"
+
+    missing_live_currencies = [
+        currency
+        for currency in sorted(FALLBACK_CURRENCY_TO_USD_RATE.keys())
+        if currency_sources.get(currency) not in {"live", "fixed"}
+    ]
+    is_complete_update = not missing_live_currencies
+    last_complete_update = clean_string(existing_registry.get("last_complete_update"))
+    last_partial_update = clean_string(existing_registry.get("last_partial_update"))
+    if is_complete_update:
+        last_complete_update = generated_at
+    else:
+        last_partial_update = generated_at
+
+    return {
+        "updated_at": generated_at,
+        "source_updated_at": fetched_at,
+        "provider": provider,
+        "fetched_live": fetched_live,
+        "is_complete_update": is_complete_update,
+        "last_complete_update": last_complete_update,
+        "last_partial_update": last_partial_update,
+        "missing_live_currencies": missing_live_currencies,
+        "base_currency": "USD",
+        "currency_to_usd_rate": currency_rates,
+        "currency_sources": currency_sources,
+    }
+
+
+def refresh_currency_rates(path: Path | None) -> dict[str, Any]:
+    registry = build_fx_rate_registry(path)
+    if path is not None:
+        write_json(path, registry)
+    return registry
 

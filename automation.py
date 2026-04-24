@@ -2,13 +2,17 @@ import os
 import json
 import csv
 import datetime
-import time
 import argparse
 import smtplib
-import re
 from email.message import EmailMessage
 from google import genai
 from google.genai import types
+from automation_v2_helpers import (
+    build_v2_prompt,
+    dedupe_deals_by_deal_signature,
+    normalize_row_for_legacy_compat,
+    safe_extract_json_array,
+)
 
 # --- CONFIGURATION ---
 API_KEY = os.getenv("GEMINI_API_KEY")
@@ -37,70 +41,38 @@ def load_nation_info(nation_id, list_name=None):
     return None
 
 def fetch_new_deals_with_retries(nation_info, num_attempts=1, model_name="gemini-2.5-flash"):
-    """Runs multiple search attempts and aggregates unique results."""
-    all_deals = []
-    seen_names = set()
-    
-    for attempt in range(num_attempts):
-        print(f"Attempt {attempt + 1}/{num_attempts} for {nation_info['label']}")
-        deals = fetch_new_deals(nation_info, model_name)
-        
-        for deal in deals:
-            name_key = deal['Startup_Name'].lower().strip()
-            if name_key not in seen_names:
-                deal['Tier'] = nation_info['tier_number']
-                deal['Nation'] = nation_info['label']
-                deal['Flag'] = nation_info['flag']
-                all_deals.append(deal)
-                seen_names.add(name_key)
-
-        if attempt < num_attempts - 1:
-            time.sleep(60)
-    
-    print(f"Total unique deals found: {len(all_deals)}")
-    return all_deals
+    """Run exactly one Gemini call per nation and return normalized deals."""
+    if num_attempts != 1:
+        print(
+            f"Requested attempts={num_attempts} for {nation_info['label']}; "
+            "forcing single Gemini call for deterministic cost control."
+        )
+    print(f"Running single attempt for {nation_info['label']}")
+    deals = fetch_new_deals(nation_info, model_name)
+    enriched = []
+    for deal in deals:
+        if not isinstance(deal, dict):
+            continue
+        normalized = normalize_row_for_legacy_compat(deal)
+        normalized['Tier'] = nation_info['tier_number']
+        normalized['Nation'] = nation_info['label']
+        normalized['Flag'] = nation_info['flag']
+        enriched.append(normalized)
+    unique_deals = dedupe_deals_by_deal_signature(enriched)
+    print(f"Total unique deals found: {len(unique_deals)}")
+    return unique_deals
 
 def fetch_new_deals(nation_info, model_name="gemini-2.5-flash"):
     """Calls Gemini with configurable model. Note: JSON mode is disabled to allow Tool use."""
     today = datetime.date.today().isoformat()
     week_ago = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
-    
-    prompt = f"""
-    You are a venture ca[ital intelligence analyst. Perform a COMPREHENSIVE search for ALL NEW funding announcements in the {nation_info['label']} startup ecosystem from {week_ago} to today (last 7 days).
-    MANDATORY SOURCES TO CHECK: {nation_info['sources']}.
-    {nation_info.get('prompt_extra', '')}
-
-    SEARCH STRATEGY:
-    1. Search each source individually.
-    2. Use multiple sseach queries per source.
-    3. Cross-reference announcements across sources.
-    4. Include both major and emerging deals.
-    
-    FILTERS:
-    1. Category: AI, Data, Machine Learning, SaaS, or Data Infrastructure.
-    2. Stage: Pre-Series A, Seed, Seed-plus, debt, Series A, and above.
-    
-    CRITICAL: RETURN A RAW JSON LIST ONLY. 
-    Do not include any conversational text before or after the JSON.
-    Format:
-    [
-      {{
-        "Country": "Organization Country name",
-        "Startup_Name": "Name",
-        "Description": "2-line business summary",
-        "Amount": "Amount (USD)",
-        "Round": "Funding Stage",
-        "Investors": "Comma-separated investor list",
-        "Founders": "Founder names",
-        "LinkedIn_Profile": "Founder LinkedIn URL or N/A if not available",
-        "Hiring": "Status: Yes/No/Unknown",
-        "Careers_Link": "Careers page URL or N/A if not available"
-      }}
-    ]
-    If ZERO deals found after thorough search, return: []
-    
-    IMPORTANT: Be exhaustive. Missing a deal is worse than finding none.
-    """
+    prompt = build_v2_prompt(
+        nation_label=nation_info["label"],
+        nation_sources=nation_info["sources"],
+        prompt_extra=nation_info.get("prompt_extra", ""),
+        week_ago=week_ago,
+        today=today,
+    )
 
     try:
         response = client.models.generate_content(
@@ -115,12 +87,10 @@ def fetch_new_deals(nation_info, model_name="gemini-2.5-flash"):
         )
         print(f"Raw Gemini Response: {response.text[:500]}")  # Debug line
         
-        # Manually extract and clean JSON from the response text
-        raw_text = response.text.strip()
-        json_match = re.search(r'\[.*\]', raw_text, re.DOTALL)
-        if json_match:
-            return json.loads(json_match.group())
-        
+        rows = safe_extract_json_array(response.text or "")
+        if rows:
+            return [normalize_row_for_legacy_compat(row) for row in rows]
+
         print(f"Warning: No valid JSON array found for {nation_info['id']}")
         return []
         
