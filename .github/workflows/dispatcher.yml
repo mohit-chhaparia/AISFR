@@ -1,0 +1,158 @@
+name: 15-Time Rotating Dispatcher
+
+on:
+  schedule:
+    # Block 1
+    - cron: '0 5 * * *'
+    - cron: '30 5 * * *'
+    - cron: '0 6 * * *'
+    - cron: '30 6 * * *'
+    - cron: '0 7 * * *'
+    # Block 2
+    - cron: '0 13 * * *'
+    - cron: '30 13 * * *'
+    - cron: '0 14 * * *'
+    - cron: '30 14 * * *'
+    - cron: '0 15 * * *'
+    # Block 3
+    - cron: '0 21 * * *'
+    - cron: '30 21 * * *'
+    - cron: '0 22 * * *'
+    - cron: '30 22 * * *'
+    - cron: '0 23 * * *'
+
+  workflow_dispatch:
+    inputs:
+      slot_override:
+        description: "Manual run only: choose slot 1-5"
+        required: false
+        type: choice
+        options:
+          - "1"
+          - "2"
+          - "3"
+          - "4"
+          - "5"
+      day_override:
+        description: "Manual run only: optional UTC day-of-month override (1-31)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dispatcher-${{ github.workflow }}-${{ github.event.schedule || format('manual-{0}', github.run_id) }}
+  cancel-in-progress: false
+
+jobs:
+  calculate:
+    runs-on: [self-hosted, radar-fallback]
+    timeout-minutes: 10
+    outputs:
+      wf_name: ${{ steps.logic.outputs.wf_name }}
+      list_num: ${{ steps.logic.outputs.list_num }}
+      slot_num: ${{ steps.logic.outputs.slot_num }}
+      day_index: ${{ steps.logic.outputs.day_index }}
+
+    steps:
+      - name: Rotation Logic
+        id: logic
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          EVENT_NAME="${{ github.event_name }}"
+          EVENT_SCHEDULE="${{ github.event.schedule }}"
+          SLOT_INPUT="${{ github.event.inputs.slot_override || '' }}"
+          DAY_INPUT="${{ github.event.inputs.day_override || '' }}"
+
+          CURRENT_DAY_UTC="$(date -u +%d)"
+
+          echo "Event name: $EVENT_NAME"
+          echo "Triggered schedule: ${EVENT_SCHEDULE:-N/A}"
+          echo "Current UTC day: $CURRENT_DAY_UTC"
+
+          if [[ "$EVENT_NAME" == "schedule" ]]; then
+            case "$EVENT_SCHEDULE" in
+              '0 5 * * *'|'0 13 * * *'|'0 21 * * *')
+                SLOT_NUM=1
+                ;;
+              '30 5 * * *'|'30 13 * * *'|'30 21 * * *')
+                SLOT_NUM=2
+                ;;
+              '0 6 * * *'|'0 14 * * *'|'0 22 * * *')
+                SLOT_NUM=3
+                ;;
+              '30 6 * * *'|'30 14 * * *'|'30 22 * * *')
+                SLOT_NUM=4
+                ;;
+              '0 7 * * *'|'0 15 * * *'|'0 23 * * *')
+                SLOT_NUM=5
+                ;;
+              *)
+                echo "Error: Unsupported cron expression: $EVENT_SCHEDULE"
+                exit 1
+                ;;
+            esac
+          else
+            SLOT_NUM="${SLOT_INPUT:-1}"
+            if ! [[ "$SLOT_NUM" =~ ^[1-5]$ ]]; then
+              echo "Error: slot_override must be 1, 2, 3, 4, or 5"
+              exit 1
+            fi
+          fi
+
+          DAY_VALUE="${DAY_INPUT:-$CURRENT_DAY_UTC}"
+          if ! [[ "$DAY_VALUE" =~ ^[0-9]+$ ]]; then
+            echo "Error: day_override must be numeric"
+            exit 1
+          fi
+
+          DAY_NUM=$((10#$DAY_VALUE))
+          if (( DAY_NUM < 1 || DAY_NUM > 31 )); then
+            echo "Error: day value must be between 1 and 31"
+            exit 1
+          fi
+
+          DAY_INDEX=$(( ((DAY_NUM - 1) % 5) + 1 ))
+          LIST_NUM=$(( ((DAY_INDEX - 1 + SLOT_NUM - 1) % 5) + 1 ))
+
+          echo "Resolved slot: $SLOT_NUM"
+          echo "Resolved day index: $DAY_INDEX"
+          echo "Selected workflow: list$LIST_NUM"
+
+          echo "slot_num=$SLOT_NUM" >> "$GITHUB_OUTPUT"
+          echo "day_index=$DAY_INDEX" >> "$GITHUB_OUTPUT"
+          echo "list_num=$LIST_NUM" >> "$GITHUB_OUTPUT"
+          echo "wf_name=list$LIST_NUM" >> "$GITHUB_OUTPUT"
+
+  call-list1:
+    needs: calculate
+    if: needs.calculate.outputs.wf_name == 'list1'
+    uses: ./.github/workflows/list1.yml
+    secrets: inherit
+
+  call-list2:
+    needs: calculate
+    if: needs.calculate.outputs.wf_name == 'list2'
+    uses: ./.github/workflows/list2.yml
+    secrets: inherit
+
+  call-list3:
+    needs: calculate
+    if: needs.calculate.outputs.wf_name == 'list3'
+    uses: ./.github/workflows/list3.yml
+    secrets: inherit
+
+  call-list4:
+    needs: calculate
+    if: needs.calculate.outputs.wf_name == 'list4'
+    uses: ./.github/workflows/list4.yml
+    secrets: inherit
+
+  call-list5:
+    needs: calculate
+    if: needs.calculate.outputs.wf_name == 'list5'
+    uses: ./.github/workflows/list5.yml
+    secrets: inherit
