@@ -159,7 +159,31 @@
       "Nation": "Switzerland",
       "Flag": "\ud83c\udde8\ud83c\udded",
       "Date_Captured": "2026-04-19"
+    },
+    {
+      "Country": "Switzerland",
+      "Startup_Name": "Forgis",
+      "Description": "Forgis develops a central interface for the automation of entire factories, aiming to streamline industrial processes. The company focuses on creating smart systems for factory automation.",
+      "Amount": "30,000 dollars",
+      "Round": "Prize/Grant (Pre-Seed)",
+      "Investors": "ABB",
+      "Founders": "Unknown",
+      "LinkedIn_Profile": "N/A",
+      "Hiring": "Unknown",
+      "Careers_Link": "N/A",
+      "Announcement_Date": "2026-04-22",
+      "Source_URL": "https://innovation.zuerich/news/forgis-is-one-of-the-winners-of-the-abb-startup-challenge/",
+      "Source_Title": "Forgis Is One of the Winners of the ABB Startup Challenge",
+      "Sector_Primary": "SaaS",
+      "Sector_Secondary": "Industrial Automation, Data Infrastructure",
+      "AI_Domain_Tags": "Unknown",
+      "Startup_City": "Schlieren ZH",
+      "Confidence_Score": 0.8,
+      "Tier": "Tier 3",
+      "Nation": "Switzerland",
+      "Flag": "\ud83c\udde8\ud83c\udded",
+      "Date_Captured": "2026-04-24"
     }
   ],
-  "last_updated": "2026-04-23 16:49"
+  "last_updated": "2026-04-24 23:32"
 }
