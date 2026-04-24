@@ -47,7 +47,7 @@ concurrency:
 
 jobs:
   calculate:
-    runs-on: [self-hosted, radar-fallback]
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     outputs:
       wf_name: ${{ steps.logic.outputs.wf_name }}
@@ -117,15 +117,23 @@ jobs:
 
           DAY_INDEX=$(( ((DAY_NUM - 1) % 5) + 1 ))
           LIST_NUM=$(( ((DAY_INDEX - 1 + SLOT_NUM - 1) % 5) + 1 ))
+          WF_NAME="list$LIST_NUM"
+
+          # This repository currently includes only list1.yml.
+          # Fallback keeps dispatcher usable until list2-list5 workflows are added.
+          if [[ "$WF_NAME" != "list1" ]]; then
+            echo "Workflow $WF_NAME is not present in this repository; falling back to list1."
+            WF_NAME="list1"
+          fi
 
           echo "Resolved slot: $SLOT_NUM"
           echo "Resolved day index: $DAY_INDEX"
-          echo "Selected workflow: list$LIST_NUM"
+          echo "Selected workflow: $WF_NAME"
 
           echo "slot_num=$SLOT_NUM" >> "$GITHUB_OUTPUT"
           echo "day_index=$DAY_INDEX" >> "$GITHUB_OUTPUT"
           echo "list_num=$LIST_NUM" >> "$GITHUB_OUTPUT"
-          echo "wf_name=list$LIST_NUM" >> "$GITHUB_OUTPUT"
+          echo "wf_name=$WF_NAME" >> "$GITHUB_OUTPUT"
 
   call-list1:
     needs: calculate
@@ -133,26 +141,3 @@ jobs:
     uses: ./.github/workflows/list1.yml
     secrets: inherit
 
-  call-list2:
-    needs: calculate
-    if: needs.calculate.outputs.wf_name == 'list2'
-    uses: ./.github/workflows/list2.yml
-    secrets: inherit
-
-  call-list3:
-    needs: calculate
-    if: needs.calculate.outputs.wf_name == 'list3'
-    uses: ./.github/workflows/list3.yml
-    secrets: inherit
-
-  call-list4:
-    needs: calculate
-    if: needs.calculate.outputs.wf_name == 'list4'
-    uses: ./.github/workflows/list4.yml
-    secrets: inherit
-
-  call-list5:
-    needs: calculate
-    if: needs.calculate.outputs.wf_name == 'list5'
-    uses: ./.github/workflows/list5.yml
-    secrets: inherit
