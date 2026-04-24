@@ -1,0 +1,88 @@
+name: Daily VC Radar Digest Email
+
+on:
+  schedule:
+    - cron: '30 12 * * *'  # 7:30 AM CT
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  github-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    continue-on-error: true
+    outputs:
+      github_available: ${{ steps.probe.outputs.github_available }}
+    steps:
+      - id: probe
+        name: Probe GitHub-hosted availability
+        run: echo "GitHub-hosted runner is available."
+
+  send-digest-github:
+    needs: github-probe
+    if: ${{ always() && needs.github-probe.outputs.github_available == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Send Daily Digest Email
+        env:
+          GET_TARGET_EMAIL: ${{ secrets.GET_TARGET_EMAIL }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python send_notification.py
+
+  send-digest-self-hosted:
+    needs: github-probe
+    if: ${{ always() && needs.github-probe.outputs.github_available != 'true' }}
+    runs-on: [self-hosted, radar-fallback]
+    timeout-minutes: 600
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Locate local Python 3.11
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if command -v brew >/dev/null 2>&1; then
+            PY_PREFIX="$(brew --prefix python@3.11 2>/dev/null || true)"
+            if [[ -n "$PY_PREFIX" && -x "$PY_PREFIX/bin/python3.11" ]]; then
+              echo "$PY_PREFIX/bin" >> "$GITHUB_PATH"
+            fi
+          fi
+
+          if command -v python3.11 >/dev/null 2>&1; then
+            echo "Using $(command -v python3.11)"
+            python3.11 --version
+            exit 0
+          fi
+
+          echo "Python 3.11 not found on self-hosted Mac."
+          echo "Install it first with: brew install python@3.11"
+          exit 1
+
+      - name: Send Daily Digest Email (low priority on Mac fallback)
+        shell: bash
+        env:
+          GET_TARGET_EMAIL: ${{ secrets.GET_TARGET_EMAIL }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: |
+          set -euo pipefail
+          nice -n 10 python3.11 send_notification.py
